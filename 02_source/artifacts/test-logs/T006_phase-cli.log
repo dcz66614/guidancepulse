@@ -1,0 +1,13 @@
+CMD: npx vitest run tests/unit/phase-cli.test.ts
+COMMIT: 7a081b467ac17202aff53392ded506067322fc7d
+
+ RUN  v3.2.4 /home/hatch/workspace/p025-guidancepulse/02_source
+
+ ✓ tests/unit/phase-cli.test.ts (13 tests) 72ms
+
+ Test Files  1 passed (1)
+      Tests  13 passed (13)
+   Start at  13:51:18
+   Duration  1.07s (transform 285ms, setup 0ms, collect 409ms, tests 72ms, environment 0ms, prepare 103ms)
+
+EXIT: 0

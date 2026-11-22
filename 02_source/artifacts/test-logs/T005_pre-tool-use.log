@@ -1,0 +1,10 @@
+
+ RUN  v3.2.4 /home/hatch/workspace/p025-guidancepulse/02_source
+
+ ✓ tests/unit/pre-tool-use.test.ts (29 tests) 129ms
+
+ Test Files  1 passed (1)
+      Tests  29 passed (29)
+   Start at  13:50:44
+   Duration  1.59s (transform 540ms, setup 0ms, collect 667ms, tests 129ms, environment 0ms, prepare 215ms)
+

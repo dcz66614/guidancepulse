@@ -1,0 +1,13 @@
+
+> guidancepulse@1.0.0 build
+> vite build
+
+vite v7.3.8 building client environment for production...
+transforming...
+✓ 33 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.41 kB │ gzip:  0.29 kB
+dist/assets/index-BOokuB8r.css    2.58 kB │ gzip:  0.93 kB
+dist/assets/index-CUspaKec.js   234.60 kB │ gzip: 72.52 kB
+✓ built in 1.88s

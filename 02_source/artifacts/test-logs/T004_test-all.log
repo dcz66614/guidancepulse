@@ -1,0 +1,18 @@
+
+> guidancepulse@1.0.0 test
+> vitest run
+
+
+ RUN  v3.2.4 /home/hatch/workspace/p025-guidancepulse/02_source
+
+ ✓ tests/unit/privacy-sanitizer.test.ts (25 tests) 19ms
+ ✓ tests/unit/hooks-adapter.test.ts (30 tests) 89ms
+ ✓ tests/unit/config.test.ts (76 tests) 292ms
+ ✓ tests/unit/lease-machine.test.ts (33 tests) 17ms
+ ✓ tests/unit/path-matcher.test.ts (16 tests) 13ms
+
+ Test Files  5 passed (5)
+      Tests  180 passed (180)
+   Start at  13:36:08
+   Duration  2.37s (transform 923ms, setup 0ms, collect 2.35s, tests 430ms, environment 1ms, prepare 1.22s)
+

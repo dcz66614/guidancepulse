@@ -1,0 +1,16 @@
+version: 1
+
+defaults:
+  mode: warn
+  max_successful_edits: 5
+  unobservable_read: deny
+
+phases: [explore, implementation, review, release]
+
+rules:
+  - id: auth-change-safety
+    source: [CLAUDE.md, .claude/rules/security.md]
+    applies_to: [src/auth/**, src/session/**]
+    phases: [implementation, review]
+    mode: block
+    max_successful_edits: 5

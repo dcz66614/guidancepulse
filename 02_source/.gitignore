@@ -1,0 +1,20 @@
+.tmp-t007-*/
+
+# T011 installer test scratch dirs (in-tree so better-sqlite3 resolves)
+.tmp-t011-*/
+
+# T012 integration / E2E test scratch dirs (same constraint as T011)
+.tmp-t012-*/
+
+# T011 install-generated local state (never committed; evidence lives in logs)
+.guidancepulse/state.sqlite
+.guidancepulse/state.sqlite-wal
+.guidancepulse/state.sqlite-shm
+.guidancepulse/path-key.bin
+.guidancepulse/hooks/.build/
+.guidancepulse/install-failure.log
+.claude/
+
+# T008 demo regenerables (not committed by design)
+artifacts/demo/state.sqlite
+artifacts/demo/.guidancepulse/

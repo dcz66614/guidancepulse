@@ -1,0 +1,14 @@
+{
+  "scope": "src/**/*.ts(x) product code + scripts/hook-entry.ts (shipped runtime entry) + package.json dependencies (dev scripts excluded; check-ui-offline.mjs runs a 127.0.0.1-only test server)",
+  "files_scanned": 40,
+  "dependencies": [
+    "better-sqlite3",
+    "react",
+    "react-dom",
+    "yaml"
+  ],
+  "call_site_hits": [],
+  "url_literals_in_code": [],
+  "total_call_site_hits": 0,
+  "verdict": "PASS"
+}

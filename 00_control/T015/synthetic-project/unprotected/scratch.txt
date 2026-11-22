@@ -1,0 +1,2 @@
+T015 synthetic unprotected scratch — line 1.
+This file is NOT covered by any guidance rule.

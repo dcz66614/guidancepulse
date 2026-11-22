@@ -1,0 +1,7 @@
+
+> guidancepulse@1.0.0 test:ui-offline
+> node scripts/check-ui-offline.mjs
+
+WARN: assets/index-CUspaKec.js: inert external-looking string(s) in JS (no request is made): https://react.dev/errors/, http://www.w3.org/2000/svg, http://www.w3.org/1998/Math/MathML
+served 3 local resource(s) from 127.0.0.1:45269, all 200, all same-origin
+test:ui-offline PASSED (1 warning(s))

@@ -1,0 +1,31 @@
+# GuidancePulse example configuration — P025 GuidancePulse, SPEC_VERSION 1.0.0
+# Mirrors PROJECT_BOOK.md §4.1. Validates with `npm run test:config` and
+# against schemas/guidance-rule-v1.schema.json. All data is synthetic.
+#
+# Semantics frozen by T002:
+#   - defaults: mode warn, max_successful_edits 5, unobservable_read deny
+#   - a rule with no `phases` applies to ALL declared phases
+#   - `**` matches zero or more path segments; `*` / `?` stay in one segment
+#   - when several rules match one write, block > ask > warn wins (§5.4)
+version: 1
+
+defaults:
+  mode: warn
+  max_successful_edits: 5
+  unobservable_read: deny
+
+phases: [explore, implementation, review, release]
+
+rules:
+  - id: auth-change-safety
+    source: [CLAUDE.md, .claude/rules/security.md]
+    applies_to: [src/auth/**, src/session/**]
+    phases: [implementation, review]
+    mode: block
+    max_successful_edits: 5
+
+  - id: docs-consistency
+    source: [AGENTS.md]
+    applies_to: [docs/**]
+    # phases omitted: applies to all declared phases; mode/max fall back
+    # to defaults (warn / 5).

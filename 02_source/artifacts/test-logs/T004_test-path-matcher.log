@@ -1,0 +1,14 @@
+
+> guidancepulse@1.0.0 test:path-matcher
+> vitest run tests/unit/path-matcher.test.ts
+
+
+ RUN  v3.2.4 /home/hatch/workspace/p025-guidancepulse/02_source
+
+ ✓ tests/unit/path-matcher.test.ts (16 tests) 11ms
+
+ Test Files  1 passed (1)
+      Tests  16 passed (16)
+   Start at  13:35:59
+   Duration  948ms (transform 155ms, setup 0ms, collect 265ms, tests 11ms, environment 0ms, prepare 140ms)
+

@@ -1,0 +1,9 @@
+
+> guidancepulse@1.0.0 demo:report
+> vite-node scripts/demo-report.ts
+
+demo report written to /home/hatch/workspace/p025-guidancepulse/02_source/artifacts/demo
+  events: 12
+  leases: 2
+  auth-change-safety: EXPIRED 4/5 (PHASE_MISMATCH)
+  release-checklist: FRESH 4/5

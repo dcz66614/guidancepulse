@@ -1,0 +1,128 @@
+{
+  "schema": "guidancepulse.release-manifest/v1",
+  "project": "P025 GuidancePulse",
+  "spec_version": "1.1.0",
+  "license": "MIT",
+  "frozen_commit": "4216d962328a15a432de534947d6a56483dccd7d",
+  "frozen_commit_date": "2026-11-17T03:23:34+00:00",
+  "source_root": "02_source",
+  "source_prefix": "guidancepulse/",
+  "s0_gate": {
+    "verdict": "PASS",
+    "p95": "p95=199.75ms (n=100, p50=169.42ms, p99=261.64ms, min=152.24ms, max=277.66ms, cold_start=277.66ms, cold_start_sample_index=0, run_failures=0)",
+    "canonical_replay_sha256": "ef06d30f45d2c8460bb22eb7e477c485960bee663a6f83d5859c06ceabe8af50",
+    "full_tests": {
+      "passed": 489,
+      "failed": 0,
+      "files": 23
+    },
+    "generated_at_utc": "2026-11-17T03:30:33.554Z",
+    "evidence": "release/s0-evidence/S0_GATE.json (generated in a clean git worktree at the exact frozen commit; see s0_evidence — the values above ARE this run)",
+    "in_tree_evidence": "02_source/artifacts/s0/S0_GATE.json (in the frozen commit; its environment.git_commit is the previous commit — a commit cannot contain its own hash — it is the pre-freeze run, bridged to the frozen commit by s0_evidence.diff_proof; it is NOT the source of the values above)"
+  },
+  "s0_evidence": {
+    "frozen_commit": "4216d962328a15a432de534947d6a56483dccd7d",
+    "git_commit": "4216d962328a15a432de534947d6a56483dccd7d",
+    "generated_at_utc": "2026-11-17T03:30:33.554Z",
+    "verdict": "PASS",
+    "p95": "p95=199.75ms (n=100, p50=169.42ms, p99=261.64ms, min=152.24ms, max=277.66ms, cold_start=277.66ms, cold_start_sample_index=0, run_failures=0)",
+    "canonical_replay_sha256": "ef06d30f45d2c8460bb22eb7e477c485960bee663a6f83d5859c06ceabe8af50",
+    "full_tests": {
+      "passed": 489,
+      "failed": 0,
+      "files": 23
+    },
+    "files": [
+      {
+        "name": "S0_GATE.json",
+        "bytes": 8984,
+        "sha256": "037f5ace7230fd9e397f8f8d9b547ffd7d9320899e67191cf304eb91d8f9a698"
+      },
+      {
+        "name": "S0_GATE.md",
+        "bytes": 2350,
+        "sha256": "77c257c49b7cc1768dc9f458521bbc6f7cc6129a40e8a4700dcb18ebd3d59a9c"
+      },
+      {
+        "name": "fixture-results.json",
+        "bytes": 187747,
+        "sha256": "79daa09bbf4a624e5921f66e367fc0c73fe1384344e7beff01648d0561a25f74"
+      },
+      {
+        "name": "oracle-results.json",
+        "bytes": 48427,
+        "sha256": "712e024d5bf681d91522239a449c5678272e3a52e78965a9265500605957df5f"
+      },
+      {
+        "name": "perf-hook.json",
+        "bytes": 2866,
+        "sha256": "ebc11bb7a953b1fbc1a9e6181f1f7be0dc16341538980b431aa9ea63e0fd34a5"
+      },
+      {
+        "name": "repeat-hashes.json",
+        "bytes": 7476,
+        "sha256": "1fe3e5429e6ab72141bd2e4b150aecf791508d03d5b55447ef02cba5bba0ecc7"
+      },
+      {
+        "name": "privacy-scan.json",
+        "bytes": 4587,
+        "sha256": "19abf7efd1e6bebd5a572476becce3f96e05cf59242c2679e6401fe5f1348a34"
+      },
+      {
+        "name": "network-scan.json",
+        "bytes": 415,
+        "sha256": "d93b0840e7783fef0634717c9e868f0a2496fd852df112c1fa821d26a0937e06"
+      },
+      {
+        "name": "logs/s0-gate.log",
+        "bytes": 1816,
+        "sha256": "ecd4eb67ae8ce1836079e7e2b849a3fd4bf76f8391ffd2f03afbd32b933224bf"
+      }
+    ],
+    "diff_proof": {
+      "from_commit": "8077c3c4e68facc30f69a3474855c1d64ecc316d",
+      "to_commit": "4216d962328a15a432de534947d6a56483dccd7d",
+      "stat": " 02_source/artifacts/s0/S0_GATE.json                |   28 +-\n 02_source/artifacts/s0/S0_GATE.md                  |   10 +-\n 02_source/artifacts/s0/logs/s0-gate.log            |   40 +-\n 02_source/artifacts/s0/perf-hook.json              |  216 +-\n 02_source/artifacts/s0/privacy-scan.json           |   10 +-\n 02_source/release/RELEASE_MANIFEST.json            |  128 -\n 02_source/release/SHA256SUMS.txt                   |   13 -\n 02_source/release/SOURCE_MANIFEST.csv              |  210 -\n 02_source/release/T014_FREEZE_REPORT_R4.md         |  366 --\n 02_source/release/dist.zip                         |  Bin 682849 -> 0 bytes\n 02_source/release/s0-evidence/S0_GATE.json         |  174 -\n 02_source/release/s0-evidence/S0_GATE.md           |   40 -\n 02_source/release/s0-evidence/fixture-results.json | 6759 --------------------\n 02_source/release/s0-evidence/logs/s0-gate.log     |   20 -\n 02_source/release/s0-evidence/network-scan.json    |   14 -\n 02_source/release/s0-evidence/oracle-results.json  | 1957 ------\n 02_source/release/s0-evidence/perf-hook.json       |  142 -\n 02_source/release/s0-evidence/privacy-scan.json    |  122 -\n 02_source/release/s0-evidence/repeat-hashes.json   |  111 -\n 02_source/release/source.zip                       |  Bin 3059647 -> 0 bytes\n 20 files changed, 152 insertions(+), 10208 deletions(-)\n",
+      "name_only": "02_source/artifacts/s0/S0_GATE.json\n02_source/artifacts/s0/S0_GATE.md\n02_source/artifacts/s0/logs/s0-gate.log\n02_source/artifacts/s0/perf-hook.json\n02_source/artifacts/s0/privacy-scan.json\n02_source/release/RELEASE_MANIFEST.json\n02_source/release/SHA256SUMS.txt\n02_source/release/SOURCE_MANIFEST.csv\n02_source/release/T014_FREEZE_REPORT_R4.md\n02_source/release/dist.zip\n02_source/release/s0-evidence/S0_GATE.json\n02_source/release/s0-evidence/S0_GATE.md\n02_source/release/s0-evidence/fixture-results.json\n02_source/release/s0-evidence/logs/s0-gate.log\n02_source/release/s0-evidence/network-scan.json\n02_source/release/s0-evidence/oracle-results.json\n02_source/release/s0-evidence/perf-hook.json\n02_source/release/s0-evidence/privacy-scan.json\n02_source/release/s0-evidence/repeat-hashes.json\n02_source/release/source.zip\n"
+    }
+  },
+  "review": {
+    "task": "T013 final re-review (R6)",
+    "file": "reviews/T013_FINAL_REVIEW_R6.md",
+    "round": 6,
+    "verdict": "PASS",
+    "p0": 0,
+    "p1": 0,
+    "p2": 10,
+    "reviewed_commit": "17cbd1e26aa3877e8e48f3584ccc3d617b8c7008",
+    "evidence": "reviews/T013_FINAL_REVIEW_R6.md (in the frozen commit; the latest T013 review at freeze time — recorded as-is, FAIL does not block re-freeze)"
+  },
+  "generated_by": "npm run release:build (scripts/release-build.mjs)",
+  "generation": {
+    "source_zip": "git archive --format=tar 4216d962328a15a432de534947d6a56483dccd7d -- 02_source, extracted and repacked as a deterministic STORE zip (scripts/release-zip.mjs: fixed 1980-01-01 timestamps, entries sorted by path) with prefix guidancepulse/; directory entries included for every parent dir",
+    "dist_zip": "npm run build (fresh, immediately before packaging) + deterministic STORE zip (scripts/release-zip.mjs); entries are package.json, package-lock.json, README.md, LICENSE, THIRD_PARTY_NOTICES.md, guidancepulse.example.yaml, index.html, vite.config.ts and tsconfig.json at the root, dist/<path> (vite UI build), bin/<path> (CLI launcher), src/<path> (TypeScript CLI + hooks, run via vite-node), scripts/hook-entry.ts (the hook build compiles it with tsc), schemas/<path> and docs/<path>; entry modes are normalized to the git model (0755 iff any exec bit, else 0644; R1-P2-02), so bin/guidancepulse is 0755 regardless of the checkout's disk mode; LICENSE content hash is pinned to 50b8b302… and package.json claims MIT",
+    "note": "Re-running release:build re-freezes the manifest-pinned frozen commit; source.zip and dist.zip regenerate byte-identical, but the manifest's s0_evidence block, release/s0-evidence/ and the SHA256SUMS evidence lines change per run because they embed a fresh S0 re-run at the exact frozen commit (R1-P1-01) — delete release/ for a fresh freeze of HEAD. FIX-R2: the manifest's top-level s0_gate block takes its verdict/p95/canonical/full-tests/generated_at_utc from that same frozen-evidence run, not from the in-tree gate (which records the previous commit); release-verify.mjs §7b checks the two blocks agree. FIX-R5: the manifest's review block cites the latest T013 review in the frozen commit (file/round/verdict/counts/reviewed_commit), never a hard-coded round; a FAIL verdict is recorded as-is and does not block re-freeze. The clean-room rebuild and the dist smoke install dependencies with a real `npm ci --offline --ignore-scripts` from the local npm cache (no network; --ignore-scripts is kept as a harmless belt-and-braces flag — better-sqlite3@13.2.0 has no install script, so npm ci never triggers a node-gyp rebuild; the package ships an N-API prebuilt binary in prebuilds/). A commit cannot contain its own hash, so the manifest names the frozen (source) commit and the release artifacts + freeze report are committed on top of it (P023 T014 convention); release:verify checks the pinned commit's tree against source.zip, never HEAD."
+  },
+  "source_zip": {
+    "file": "source.zip",
+    "bytes": 3080620,
+    "sha256": "9aa4d7867166f88cde575330d8f4455deb3af60a667b0d21ae9361cef33b9144",
+    "file_count": 210
+  },
+  "dist_zip": {
+    "file": "dist.zip",
+    "bytes": 688475,
+    "sha256": "c77c4224aef4cc3a12cfa14de975f9d3e3d83a0e77867376d163d1db515d8016",
+    "entry_count": 57
+  },
+  "environment": {
+    "node": "v24.22.1",
+    "npm": "10.9.4",
+    "python": "Python 3.12.3",
+    "git": "git version 2.43.0",
+    "platform": "linux x64",
+    "cpu_model": "AMD EPYC 9D25 126-Core Processor",
+    "cpu_count": 4,
+    "total_memory_bytes": 8319901696
+  }
+}

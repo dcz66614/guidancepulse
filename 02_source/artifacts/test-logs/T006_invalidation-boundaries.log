@@ -1,0 +1,13 @@
+CMD: npx vitest run tests/unit/invalidation-boundaries.test.ts
+COMMIT: 7a081b467ac17202aff53392ded506067322fc7d
+
+ RUN  v3.2.4 /home/hatch/workspace/p025-guidancepulse/02_source
+
+ ✓ tests/unit/invalidation-boundaries.test.ts (15 tests) 66ms
+
+ Test Files  1 passed (1)
+      Tests  15 passed (15)
+   Start at  13:51:16
+   Duration  1.09s (transform 307ms, setup 0ms, collect 462ms, tests 66ms, environment 0ms, prepare 203ms)
+
+EXIT: 0

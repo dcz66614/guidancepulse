@@ -1,0 +1,28 @@
+CMD: npm test
+
+> guidancepulse@1.0.0 test
+> vitest run
+
+
+ RUN  v3.2.4 /home/hatch/workspace/p025-guidancepulse/02_source
+
+ ✓ tests/unit/hooks-adapter.test.ts (30 tests) 45ms
+ ✓ tests/unit/pre-tool-use.test.ts (29 tests) 498ms
+ ✓ tests/unit/lease-machine.test.ts (33 tests) 118ms
+ ✓ tests/unit/config.test.ts (76 tests) 202ms
+ ✓ tests/unit/store.test.ts (21 tests) 202ms
+ ✓ tests/unit/privacy-sanitizer.test.ts (25 tests) 77ms
+ ✓ tests/unit/privacy.test.ts (15 tests) 108ms
+ ✓ tests/unit/path-matcher.test.ts (16 tests) 70ms
+ ✓ tests/unit/phase-cli.test.ts (13 tests) 213ms
+ ✓ tests/unit/invalidation-boundaries.test.ts (15 tests) 312ms
+ ✓ tests/unit/concurrency.test.ts (2 tests) 8564ms
+   ✓ multi-process concurrent writes > 8 Hook subprocesses x 25 events: nothing lost, nothing duplicated  2241ms
+   ✓ multi-process concurrent writes > 4 subprocesses compacting one shared session: all leases expire, 4 events land  574ms
+
+ Test Files  11 passed (11)
+      Tests  275 passed (275)
+   Start at  13:51:20
+   Duration  10.04s (transform 2.04s, setup 0ms, collect 6.52s, tests 10.41s, environment 5ms, prepare 2.89s)
+
+EXIT: 0

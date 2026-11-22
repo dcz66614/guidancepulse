@@ -1,0 +1,14 @@
+
+> guidancepulse@1.0.0 test:config
+> vitest run tests/unit/config.test.ts
+
+
+ RUN  v3.2.4 /home/hatch/workspace/p025-guidancepulse/02_source
+
+ ✓ tests/unit/config.test.ts (76 tests) 61ms
+
+ Test Files  1 passed (1)
+      Tests  76 passed (76)
+   Start at  13:26:07
+   Duration  910ms (transform 126ms, setup 0ms, collect 330ms, tests 61ms, environment 0ms, prepare 143ms)
+

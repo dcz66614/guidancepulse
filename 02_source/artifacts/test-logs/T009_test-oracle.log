@@ -1,0 +1,9 @@
+$ npm run test:oracle
+
+> guidancepulse@1.0.0 test:oracle
+> python3 tests/oracle/reference_oracle.py --self-test && python3 tests/oracle/reference_oracle.py --verify-golden
+
+oracle self-test: PASS
+oracle --verify-golden: 48/48 fixtures match golden
+oracle --verify-golden: PASS (48/48)
+EXIT:0

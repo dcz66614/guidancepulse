@@ -1,0 +1,24 @@
+# T015 test config — P025 GuidancePulse, SPEC_VERSION 1.1.0
+# Copy this file over .guidancepulse/config.yaml AFTER running
+# `guidancepulse init` in the test project (init never overwrites
+# an existing config, so the copy must be explicit).
+# Semantics (PROJECT_BOOK v1.1.0 §5.1, §6.1–§6.5):
+#   - one rule, id t015-guard; source is GUIDANCE.md only;
+#   - applies_to protected/** only; mode block;
+#   - no `phases` field: the rule applies to ALL declared phases;
+#   - max_successful_edits 5 (default); unobservable_read deny.
+version: 1
+
+defaults:
+  mode: warn
+  max_successful_edits: 5
+  unobservable_read: deny
+
+phases: [explore, implementation, review, release]
+
+rules:
+  - id: t015-guard
+    source: [GUIDANCE.md]
+    applies_to: [protected/**]
+    mode: block
+    max_successful_edits: 5

@@ -1,0 +1,16 @@
+
+> guidancepulse@1.0.0 test:concurrency
+> vitest run tests/unit/concurrency.test.ts
+
+
+ RUN  v3.2.4 /home/hatch/workspace/p025-guidancepulse/02_source
+
+ ✓ tests/unit/concurrency.test.ts (2 tests) 3909ms
+   ✓ multi-process concurrent writes > 8 Hook subprocesses x 25 events: nothing lost, nothing duplicated  1342ms
+   ✓ multi-process concurrent writes > 4 subprocesses compacting one shared session: all leases expire, 4 events land  543ms
+
+ Test Files  1 passed (1)
+      Tests  2 passed (2)
+   Start at  13:45:23
+   Duration  5.11s (transform 357ms, setup 0ms, collect 463ms, tests 3.91s, environment 0ms, prepare 140ms)
+

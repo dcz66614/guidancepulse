@@ -1,0 +1,17 @@
+
+> guidancepulse@1.0.0 test:e2e
+> vitest run tests/e2e
+
+
+ RUN  v3.2.4 /home/hatch/workspace/p025-guidancepulse/02_source
+
+ ✓ tests/e2e/privacy-scan.test.ts (1 test) 6619ms
+   ✓ T012 privacy regression: canaries never persist > install + Read + Write allow + PreCompact + Write deny leaves zero canaries  6617ms
+ ✓ tests/e2e/cli-chain.test.ts (1 test) 14682ms
+   ✓ T012 E2E: CLI install → status → phase → hook round-trip → uninstall > runs the user journey through bin/guidancepulse from the project cwd  14680ms
+
+ Test Files  2 passed (2)
+      Tests  2 passed (2)
+   Start at  15:57:15
+   Duration  15.80s (transform 597ms, setup 0ms, collect 1.15s, tests 21.30s, environment 0ms, prepare 320ms)
+

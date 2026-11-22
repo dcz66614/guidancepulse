@@ -1,0 +1,7 @@
+
+> guidancepulse@1.0.0 demo:screenshot
+> node scripts/demo-screenshot.mjs
+
+video: /home/hatch/workspace/p025-guidancepulse/02_source/artifacts/demo/T008_demo.webm
+requests: 4, all to 127.0.0.1 — offline OK
+screenshots: /home/hatch/workspace/p025-guidancepulse/02_source/artifacts/screenshots/T008_dashboard.png, T008_dashboard_filtered.png, T008_report.png

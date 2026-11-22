@@ -1,0 +1,14 @@
+
+> guidancepulse@1.0.0 test:lease-machine
+> vitest run tests/unit/lease-machine.test.ts
+
+
+ RUN  v3.2.4 /home/hatch/workspace/p025-guidancepulse/02_source
+
+ ✓ tests/unit/lease-machine.test.ts (33 tests) 19ms
+
+ Test Files  1 passed (1)
+      Tests  33 passed (33)
+   Start at  13:36:01
+   Duration  856ms (transform 252ms, setup 0ms, collect 283ms, tests 19ms, environment 0ms, prepare 187ms)
+

@@ -1,0 +1,20 @@
+[2026-11-17T03:28:14.231Z] S0 gate start (P025 GuidancePulse, SPEC_VERSION 1.1.0)
+[2026-11-17T03:28:14.421Z] env node=v24.22.1 npm=10.9.4 Python 3.12.3 platform=linux-x64 commit=4216d96
+[2026-11-17T03:28:20.378Z] typecheck exit=0
+[2026-11-17T03:28:21.994Z] test:golden exit=0 passed=53 failed=0
+[2026-11-17T03:28:22.321Z] test:oracle exit=0
+[2026-11-17T03:30:08.387Z] npm test exit=0 passed=489 failed=0 files=23
+[2026-11-17T03:30:08.402Z] replay parity=48/48 control=16/16 detected=32/32
+[2026-11-17T03:30:08.595Z] oracle --verify-golden exit=0: oracle --verify-golden: PASS (48/48)
+[2026-11-17T03:30:11.968Z] oracle per-fixture vs production=48/48 vs golden=48/48
+[2026-11-17T03:30:33.090Z] perf p50=169.42ms p95=199.75ms p99=261.64ms min=152.24ms max=277.66ms cold_start=277.66ms cold_start_sample_index=0 failures=0 verdict=PASS
+[2026-11-17T03:30:33.515Z] repeat runs=100 unique_hashes=1 hash=ef06d30f45d2c8460bb22eb7e477c485960bee663a6f83d5859c06ceabe8af50 verdict=PASS
+[2026-11-17T03:30:33.530Z] network scan files=40 call_site_hits=0 url_literals=0
+[2026-11-17T03:30:33.542Z] privacy scan files=11 total_canary_hits=0
+[2026-11-17T03:30:33.553Z] supporting evidence: typecheck=PASS tests=PASS (full=489 passed/0 failed)
+[2026-11-17T03:30:33.553Z] S0 overall verdict: PASS
+[2026-11-17T03:30:33.555Z] privacy second pass (draft bytes) files=2 total_canary_hits=0
+[2026-11-17T03:30:33.555Z] privacy final byte scan files=2 total_canary_hits=0
+[2026-11-17T03:30:33.556Z] wrote artifacts/s0/S0_GATE.json bytes=8984 sha256=037f5ace7230fd9e397f8f8d9b547ffd7d9320899e67191cf304eb91d8f9a698 read_back_match=true
+[2026-11-17T03:30:33.556Z] wrote artifacts/s0/S0_GATE.md bytes=2350 sha256=77c257c49b7cc1768dc9f458521bbc6f7cc6129a40e8a4700dcb18ebd3d59a9c read_back_match=true
+[2026-11-17T03:30:33.556Z] S0 gate done: PASS

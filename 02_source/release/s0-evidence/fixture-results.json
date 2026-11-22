@@ -1,0 +1,6759 @@
+{
+  "summary": {
+    "total": 48,
+    "parityMatched": 48,
+    "parity": "48/48",
+    "controlTotal": 16,
+    "controlClean": 16,
+    "errorTotal": 32,
+    "errorDetected": 32,
+    "perFixture": [
+      {
+        "id": "C01",
+        "group": "control",
+        "matchesGolden": true,
+        "controlClean": true,
+        "errorDetected": null,
+        "detection_basis": null,
+        "mismatchDetail": null
+      },
+      {
+        "id": "C02",
+        "group": "control",
+        "matchesGolden": true,
+        "controlClean": true,
+        "errorDetected": null,
+        "detection_basis": null,
+        "mismatchDetail": null
+      },
+      {
+        "id": "C03",
+        "group": "control",
+        "matchesGolden": true,
+        "controlClean": true,
+        "errorDetected": null,
+        "detection_basis": null,
+        "mismatchDetail": null
+      },
+      {
+        "id": "C04",
+        "group": "control",
+        "matchesGolden": true,
+        "controlClean": true,
+        "errorDetected": null,
+        "detection_basis": null,
+        "mismatchDetail": null
+      },
+      {
+        "id": "C05",
+        "group": "control",
+        "matchesGolden": true,
+        "controlClean": true,
+        "errorDetected": null,
+        "detection_basis": null,
+        "mismatchDetail": null
+      },
+      {
+        "id": "C06",
+        "group": "control",
+        "matchesGolden": true,
+        "controlClean": true,
+        "errorDetected": null,
+        "detection_basis": null,
+        "mismatchDetail": null
+      },
+      {
+        "id": "C07",
+        "group": "control",
+        "matchesGolden": true,
+        "controlClean": true,
+        "errorDetected": null,
+        "detection_basis": null,
+        "mismatchDetail": null
+      },
+      {
+        "id": "C08",
+        "group": "control",
+        "matchesGolden": true,
+        "controlClean": true,
+        "errorDetected": null,
+        "detection_basis": null,
+        "mismatchDetail": null
+      },
+      {
+        "id": "C09",
+        "group": "control",
+        "matchesGolden": true,
+        "controlClean": true,
+        "errorDetected": null,
+        "detection_basis": null,
+        "mismatchDetail": null
+      },
+      {
+        "id": "C10",
+        "group": "control",
+        "matchesGolden": true,
+        "controlClean": true,
+        "errorDetected": null,
+        "detection_basis": null,
+        "mismatchDetail": null
+      },
+      {
+        "id": "C11",
+        "group": "control",
+        "matchesGolden": true,
+        "controlClean": true,
+        "errorDetected": null,
+        "detection_basis": null,
+        "mismatchDetail": null
+      },
+      {
+        "id": "C12",
+        "group": "control",
+        "matchesGolden": true,
+        "controlClean": true,
+        "errorDetected": null,
+        "detection_basis": null,
+        "mismatchDetail": null
+      },
+      {
+        "id": "C13",
+        "group": "control",
+        "matchesGolden": true,
+        "controlClean": true,
+        "errorDetected": null,
+        "detection_basis": null,
+        "mismatchDetail": null
+      },
+      {
+        "id": "C14",
+        "group": "control",
+        "matchesGolden": true,
+        "controlClean": true,
+        "errorDetected": null,
+        "detection_basis": null,
+        "mismatchDetail": null
+      },
+      {
+        "id": "C15",
+        "group": "control",
+        "matchesGolden": true,
+        "controlClean": true,
+        "errorDetected": null,
+        "detection_basis": null,
+        "mismatchDetail": null
+      },
+      {
+        "id": "C16",
+        "group": "control",
+        "matchesGolden": true,
+        "controlClean": true,
+        "errorDetected": null,
+        "detection_basis": null,
+        "mismatchDetail": null
+      },
+      {
+        "id": "K01",
+        "group": "compact",
+        "matchesGolden": true,
+        "controlClean": null,
+        "errorDetected": true,
+        "detection_basis": "non_allow_decision",
+        "mismatchDetail": null
+      },
+      {
+        "id": "K02",
+        "group": "compact",
+        "matchesGolden": true,
+        "controlClean": null,
+        "errorDetected": true,
+        "detection_basis": "non_allow_decision",
+        "mismatchDetail": null
+      },
+      {
+        "id": "K03",
+        "group": "compact",
+        "matchesGolden": true,
+        "controlClean": null,
+        "errorDetected": true,
+        "detection_basis": "non_allow_decision",
+        "mismatchDetail": null
+      },
+      {
+        "id": "K04",
+        "group": "compact",
+        "matchesGolden": true,
+        "controlClean": null,
+        "errorDetected": true,
+        "detection_basis": "non_allow_decision",
+        "mismatchDetail": null
+      },
+      {
+        "id": "K05",
+        "group": "compact",
+        "matchesGolden": true,
+        "controlClean": null,
+        "errorDetected": true,
+        "detection_basis": "non_allow_decision",
+        "mismatchDetail": null
+      },
+      {
+        "id": "K06",
+        "group": "compact",
+        "matchesGolden": true,
+        "controlClean": null,
+        "errorDetected": true,
+        "detection_basis": "non_allow_decision",
+        "mismatchDetail": null
+      },
+      {
+        "id": "K07",
+        "group": "compact",
+        "matchesGolden": true,
+        "controlClean": null,
+        "errorDetected": true,
+        "detection_basis": "non_allow_decision",
+        "mismatchDetail": null
+      },
+      {
+        "id": "K08",
+        "group": "compact",
+        "matchesGolden": true,
+        "controlClean": null,
+        "errorDetected": true,
+        "detection_basis": "non_allow_decision",
+        "mismatchDetail": null
+      },
+      {
+        "id": "S01",
+        "group": "scope",
+        "matchesGolden": true,
+        "controlClean": null,
+        "errorDetected": true,
+        "detection_basis": "non_allow_decision",
+        "mismatchDetail": null
+      },
+      {
+        "id": "S02",
+        "group": "scope",
+        "matchesGolden": true,
+        "controlClean": null,
+        "errorDetected": true,
+        "detection_basis": "non_allow_decision",
+        "mismatchDetail": null
+      },
+      {
+        "id": "S03",
+        "group": "scope",
+        "matchesGolden": true,
+        "controlClean": null,
+        "errorDetected": true,
+        "detection_basis": "non_allow_decision",
+        "mismatchDetail": null
+      },
+      {
+        "id": "S04",
+        "group": "scope",
+        "matchesGolden": true,
+        "controlClean": null,
+        "errorDetected": true,
+        "detection_basis": "non_allow_decision",
+        "mismatchDetail": null
+      },
+      {
+        "id": "S05",
+        "group": "scope",
+        "matchesGolden": true,
+        "controlClean": null,
+        "errorDetected": true,
+        "detection_basis": "non_allow_decision",
+        "mismatchDetail": null
+      },
+      {
+        "id": "S06",
+        "group": "scope",
+        "matchesGolden": true,
+        "controlClean": null,
+        "errorDetected": true,
+        "detection_basis": "expired_intermediate_lease",
+        "mismatchDetail": null
+      },
+      {
+        "id": "S07",
+        "group": "scope",
+        "matchesGolden": true,
+        "controlClean": null,
+        "errorDetected": true,
+        "detection_basis": "expired_final_lease",
+        "mismatchDetail": null
+      },
+      {
+        "id": "S08",
+        "group": "scope",
+        "matchesGolden": true,
+        "controlClean": null,
+        "errorDetected": true,
+        "detection_basis": "non_allow_decision",
+        "mismatchDetail": null
+      },
+      {
+        "id": "U01",
+        "group": "unread",
+        "matchesGolden": true,
+        "controlClean": null,
+        "errorDetected": true,
+        "detection_basis": "non_allow_decision",
+        "mismatchDetail": null
+      },
+      {
+        "id": "U02",
+        "group": "unread",
+        "matchesGolden": true,
+        "controlClean": null,
+        "errorDetected": true,
+        "detection_basis": "non_allow_decision",
+        "mismatchDetail": null
+      },
+      {
+        "id": "U03",
+        "group": "unread",
+        "matchesGolden": true,
+        "controlClean": null,
+        "errorDetected": true,
+        "detection_basis": "non_allow_decision",
+        "mismatchDetail": null
+      },
+      {
+        "id": "U04",
+        "group": "unread",
+        "matchesGolden": true,
+        "controlClean": null,
+        "errorDetected": true,
+        "detection_basis": "non_allow_decision",
+        "mismatchDetail": null
+      },
+      {
+        "id": "U05",
+        "group": "unread",
+        "matchesGolden": true,
+        "controlClean": null,
+        "errorDetected": true,
+        "detection_basis": "non_allow_decision",
+        "mismatchDetail": null
+      },
+      {
+        "id": "U06",
+        "group": "unread",
+        "matchesGolden": true,
+        "controlClean": null,
+        "errorDetected": true,
+        "detection_basis": "non_allow_decision",
+        "mismatchDetail": null
+      },
+      {
+        "id": "U07",
+        "group": "unread",
+        "matchesGolden": true,
+        "controlClean": null,
+        "errorDetected": true,
+        "detection_basis": "non_allow_decision",
+        "mismatchDetail": null
+      },
+      {
+        "id": "U08",
+        "group": "unread",
+        "matchesGolden": true,
+        "controlClean": null,
+        "errorDetected": true,
+        "detection_basis": "non_allow_decision",
+        "mismatchDetail": null
+      },
+      {
+        "id": "W01",
+        "group": "cwd",
+        "matchesGolden": true,
+        "controlClean": null,
+        "errorDetected": true,
+        "detection_basis": "non_allow_decision",
+        "mismatchDetail": null
+      },
+      {
+        "id": "W02",
+        "group": "cwd",
+        "matchesGolden": true,
+        "controlClean": null,
+        "errorDetected": true,
+        "detection_basis": "non_allow_decision",
+        "mismatchDetail": null
+      },
+      {
+        "id": "W03",
+        "group": "cwd",
+        "matchesGolden": true,
+        "controlClean": null,
+        "errorDetected": true,
+        "detection_basis": "non_allow_decision",
+        "mismatchDetail": null
+      },
+      {
+        "id": "W04",
+        "group": "cwd",
+        "matchesGolden": true,
+        "controlClean": null,
+        "errorDetected": true,
+        "detection_basis": "non_allow_decision",
+        "mismatchDetail": null
+      },
+      {
+        "id": "W05",
+        "group": "cwd",
+        "matchesGolden": true,
+        "controlClean": null,
+        "errorDetected": true,
+        "detection_basis": "expired_intermediate_lease",
+        "mismatchDetail": null
+      },
+      {
+        "id": "W06",
+        "group": "cwd",
+        "matchesGolden": true,
+        "controlClean": null,
+        "errorDetected": true,
+        "detection_basis": "non_allow_decision",
+        "mismatchDetail": null
+      },
+      {
+        "id": "W07",
+        "group": "cwd",
+        "matchesGolden": true,
+        "controlClean": null,
+        "errorDetected": true,
+        "detection_basis": "same_cwd_no_expiry",
+        "mismatchDetail": null
+      },
+      {
+        "id": "W08",
+        "group": "cwd",
+        "matchesGolden": true,
+        "controlClean": null,
+        "errorDetected": true,
+        "detection_basis": "non_allow_decision",
+        "mismatchDetail": null
+      }
+    ]
+  },
+  "per_fixture": [
+    {
+      "id": "C01",
+      "group": "control",
+      "decisions": [
+        {
+          "step": 1,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-c01",
+          "agent": "main",
+          "guidance_id": "auth-change-safety",
+          "state": "FRESH",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 4,
+          "max": 5,
+          "reason": null,
+          "last_read": "2026-11-15T10:00:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-c01",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-c01",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 4,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 1,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-c01",
+            "agent": "main",
+            "guidance_id": "auth-change-safety",
+            "state": "FRESH",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 4,
+            "max": 5,
+            "reason": null,
+            "last_read": "2026-11-15T10:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C02",
+      "group": "control",
+      "decisions": [
+        {
+          "step": 1,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-c02",
+          "agent": "main",
+          "guidance_id": "auth-change-safety",
+          "state": "FRESH",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 1,
+          "max": 5,
+          "reason": null,
+          "last_read": "2026-11-15T10:00:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-c02",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-c02",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 4,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "leases": [
+            {
+              "session": "sess-s0-c02",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 3,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "leases": [
+            {
+              "session": "sess-s0-c02",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 2,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "leases": [
+            {
+              "session": "sess-s0-c02",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 1,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 1,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          },
+          {
+            "step": 2,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          },
+          {
+            "step": 3,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          },
+          {
+            "step": 4,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-c02",
+            "agent": "main",
+            "guidance_id": "auth-change-safety",
+            "state": "FRESH",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 1,
+            "max": 5,
+            "reason": null,
+            "last_read": "2026-11-15T10:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C03",
+      "group": "control",
+      "decisions": [
+        {
+          "step": 1,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "docs-style",
+              "mode": "warn",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-c03",
+          "agent": "main",
+          "guidance_id": "docs-style",
+          "state": "FRESH",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 2,
+          "max": 3,
+          "reason": null,
+          "last_read": "2026-11-15T10:00:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-c03",
+              "agent": "main",
+              "guidance_id": "docs-style",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 3,
+              "max": 3,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-c03",
+              "agent": "main",
+              "guidance_id": "docs-style",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 2,
+              "max": 3,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 1,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "docs-style",
+                "mode": "warn",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-c03",
+            "agent": "main",
+            "guidance_id": "docs-style",
+            "state": "FRESH",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 2,
+            "max": 3,
+            "reason": null,
+            "last_read": "2026-11-15T10:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C04",
+      "group": "control",
+      "decisions": [
+        {
+          "step": 1,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "api-contract",
+              "mode": "ask",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-c04",
+          "agent": "main",
+          "guidance_id": "api-contract",
+          "state": "FRESH",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 1,
+          "max": 2,
+          "reason": null,
+          "last_read": "2026-11-15T10:00:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-c04",
+              "agent": "main",
+              "guidance_id": "api-contract",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 2,
+              "max": 2,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-c04",
+              "agent": "main",
+              "guidance_id": "api-contract",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 1,
+              "max": 2,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 1,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "api-contract",
+                "mode": "ask",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-c04",
+            "agent": "main",
+            "guidance_id": "api-contract",
+            "state": "FRESH",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 1,
+            "max": 2,
+            "reason": null,
+            "last_read": "2026-11-15T10:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C05",
+      "group": "control",
+      "decisions": [
+        {
+          "step": 2,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "docs-style",
+              "mode": "warn",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-c05",
+          "agent": "main",
+          "guidance_id": "auth-change-safety",
+          "state": "FRESH",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 4,
+          "max": 5,
+          "reason": null,
+          "last_read": "2026-11-15T10:00:00Z"
+        },
+        {
+          "session": "sess-s0-c05",
+          "agent": "main",
+          "guidance_id": "docs-style",
+          "state": "FRESH",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 2,
+          "max": 3,
+          "reason": null,
+          "last_read": "2026-11-15T10:01:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-c05",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-c05",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            },
+            {
+              "session": "sess-s0-c05",
+              "agent": "main",
+              "guidance_id": "docs-style",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 3,
+              "max": 3,
+              "reason": null,
+              "last_read": "2026-11-15T10:01:00Z"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "leases": [
+            {
+              "session": "sess-s0-c05",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 4,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            },
+            {
+              "session": "sess-s0-c05",
+              "agent": "main",
+              "guidance_id": "docs-style",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 3,
+              "max": 3,
+              "reason": null,
+              "last_read": "2026-11-15T10:01:00Z"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "leases": [
+            {
+              "session": "sess-s0-c05",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 4,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            },
+            {
+              "session": "sess-s0-c05",
+              "agent": "main",
+              "guidance_id": "docs-style",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 2,
+              "max": 3,
+              "reason": null,
+              "last_read": "2026-11-15T10:01:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 2,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          },
+          {
+            "step": 3,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "docs-style",
+                "mode": "warn",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-c05",
+            "agent": "main",
+            "guidance_id": "auth-change-safety",
+            "state": "FRESH",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 4,
+            "max": 5,
+            "reason": null,
+            "last_read": "2026-11-15T10:00:00Z"
+          },
+          {
+            "session": "sess-s0-c05",
+            "agent": "main",
+            "guidance_id": "docs-style",
+            "state": "FRESH",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 2,
+            "max": 3,
+            "reason": null,
+            "last_read": "2026-11-15T10:01:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C06",
+      "group": "control",
+      "decisions": [
+        {
+          "step": 1,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-c06",
+          "agent": "main",
+          "guidance_id": "auth-change-safety",
+          "state": "FRESH",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 4,
+          "max": 5,
+          "reason": null,
+          "last_read": "2026-11-15T10:03:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-c06",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-c06",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 4,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "leases": [
+            {
+              "session": "sess-s0-c06",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 3,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "leases": [
+            {
+              "session": "sess-s0-c06",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:03:00Z"
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "leases": [
+            {
+              "session": "sess-s0-c06",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 4,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:03:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 1,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          },
+          {
+            "step": 2,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          },
+          {
+            "step": 4,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-c06",
+            "agent": "main",
+            "guidance_id": "auth-change-safety",
+            "state": "FRESH",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 4,
+            "max": 5,
+            "reason": null,
+            "last_read": "2026-11-15T10:03:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C07",
+      "group": "control",
+      "decisions": [
+        {
+          "step": 1,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-c07",
+          "agent": "main",
+          "guidance_id": "auth-change-safety",
+          "state": "FRESH",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 4,
+          "max": 5,
+          "reason": null,
+          "last_read": "2026-11-15T10:00:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-c07",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-c07",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "leases": [
+            {
+              "session": "sess-s0-c07",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 4,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 1,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          },
+          {
+            "step": 2,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-c07",
+            "agent": "main",
+            "guidance_id": "auth-change-safety",
+            "state": "FRESH",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 4,
+            "max": 5,
+            "reason": null,
+            "last_read": "2026-11-15T10:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C08",
+      "group": "control",
+      "decisions": [
+        {
+          "step": 2,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-c08",
+          "agent": "main",
+          "guidance_id": "auth-change-safety",
+          "state": "FRESH",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 4,
+          "max": 5,
+          "reason": null,
+          "last_read": "2026-11-15T10:01:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": []
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-c08",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:01:00Z"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "leases": [
+            {
+              "session": "sess-s0-c08",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 4,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:01:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 2,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-c08",
+            "agent": "main",
+            "guidance_id": "auth-change-safety",
+            "state": "FRESH",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 4,
+            "max": 5,
+            "reason": null,
+            "last_read": "2026-11-15T10:01:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C09",
+      "group": "control",
+      "decisions": [
+        {
+          "step": 1,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-c09",
+          "agent": "main",
+          "guidance_id": "auth-change-safety",
+          "state": "FRESH",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 4,
+          "max": 5,
+          "reason": null,
+          "last_read": "2026-11-15T10:00:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-c09",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-c09",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 4,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 1,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-c09",
+            "agent": "main",
+            "guidance_id": "auth-change-safety",
+            "state": "FRESH",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 4,
+            "max": 5,
+            "reason": null,
+            "last_read": "2026-11-15T10:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C10",
+      "group": "control",
+      "decisions": [
+        {
+          "step": 0,
+          "decision": "ALLOW",
+          "per_rule": []
+        }
+      ],
+      "leases": [],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": []
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 0,
+            "decision": "ALLOW",
+            "per_rule": []
+          }
+        ],
+        "leases": []
+      }
+    },
+    {
+      "id": "C11",
+      "group": "control",
+      "decisions": [
+        {
+          "step": 1,
+          "decision": "ALLOW",
+          "per_rule": []
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-c11",
+          "agent": "main",
+          "guidance_id": "auth-change-safety",
+          "state": "FRESH",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 5,
+          "max": 5,
+          "reason": null,
+          "last_read": "2026-11-15T10:00:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-c11",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-c11",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 1,
+            "decision": "ALLOW",
+            "per_rule": []
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-c11",
+            "agent": "main",
+            "guidance_id": "auth-change-safety",
+            "state": "FRESH",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 5,
+            "max": 5,
+            "reason": null,
+            "last_read": "2026-11-15T10:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C12",
+      "group": "control",
+      "decisions": [
+        {
+          "step": 1,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-c12",
+          "agent": "main",
+          "guidance_id": "auth-change-safety",
+          "state": "FRESH",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 4,
+          "max": 5,
+          "reason": null,
+          "last_read": "2026-11-15T10:00:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-c12",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-c12",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 4,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 1,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-c12",
+            "agent": "main",
+            "guidance_id": "auth-change-safety",
+            "state": "FRESH",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 4,
+            "max": 5,
+            "reason": null,
+            "last_read": "2026-11-15T10:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C13",
+      "group": "control",
+      "decisions": [
+        {
+          "step": 2,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "FRESH",
+              "expired_reason": null
+            },
+            {
+              "guidance_id": "auth-audit",
+              "mode": "warn",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-c13",
+          "agent": "main",
+          "guidance_id": "auth-audit",
+          "state": "FRESH",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 4,
+          "max": 5,
+          "reason": null,
+          "last_read": "2026-11-15T10:01:00Z"
+        },
+        {
+          "session": "sess-s0-c13",
+          "agent": "main",
+          "guidance_id": "auth-change-safety",
+          "state": "FRESH",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 4,
+          "max": 5,
+          "reason": null,
+          "last_read": "2026-11-15T10:00:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-c13",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-c13",
+              "agent": "main",
+              "guidance_id": "auth-audit",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:01:00Z"
+            },
+            {
+              "session": "sess-s0-c13",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "leases": [
+            {
+              "session": "sess-s0-c13",
+              "agent": "main",
+              "guidance_id": "auth-audit",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 4,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:01:00Z"
+            },
+            {
+              "session": "sess-s0-c13",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 4,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 2,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "FRESH",
+                "expired_reason": null
+              },
+              {
+                "guidance_id": "auth-audit",
+                "mode": "warn",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-c13",
+            "agent": "main",
+            "guidance_id": "auth-audit",
+            "state": "FRESH",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 4,
+            "max": 5,
+            "reason": null,
+            "last_read": "2026-11-15T10:01:00Z"
+          },
+          {
+            "session": "sess-s0-c13",
+            "agent": "main",
+            "guidance_id": "auth-change-safety",
+            "state": "FRESH",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 4,
+            "max": 5,
+            "reason": null,
+            "last_read": "2026-11-15T10:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C14",
+      "group": "control",
+      "decisions": [
+        {
+          "step": 1,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-c14",
+          "agent": "main",
+          "guidance_id": "auth-change-safety",
+          "state": "FRESH",
+          "phase": "review",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 4,
+          "max": 5,
+          "reason": null,
+          "last_read": "2026-11-15T10:00:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-c14",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "review",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-c14",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "review",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 4,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 1,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-c14",
+            "agent": "main",
+            "guidance_id": "auth-change-safety",
+            "state": "FRESH",
+            "phase": "review",
+            "cwd": "/proj",
+            "remaining": 4,
+            "max": 5,
+            "reason": null,
+            "last_read": "2026-11-15T10:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C15",
+      "group": "control",
+      "decisions": [
+        {
+          "step": 2,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-c15",
+          "agent": "sub-1",
+          "guidance_id": "auth-change-safety",
+          "state": "FRESH",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 4,
+          "max": 5,
+          "reason": null,
+          "last_read": "2026-11-15T10:01:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": []
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-c15",
+              "agent": "sub-1",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:01:00Z"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "leases": [
+            {
+              "session": "sess-s0-c15",
+              "agent": "sub-1",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 4,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:01:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 2,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-c15",
+            "agent": "sub-1",
+            "guidance_id": "auth-change-safety",
+            "state": "FRESH",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 4,
+            "max": 5,
+            "reason": null,
+            "last_read": "2026-11-15T10:01:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C16",
+      "group": "control",
+      "decisions": [
+        {
+          "step": 3,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-c16",
+          "agent": "main",
+          "guidance_id": "auth-change-safety",
+          "state": "FRESH",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 4,
+          "max": 5,
+          "reason": null,
+          "last_read": "2026-11-15T10:02:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-c16",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-c16",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": "CONTEXT_COMPACTION",
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "leases": [
+            {
+              "session": "sess-s0-c16",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:02:00Z"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "leases": [
+            {
+              "session": "sess-s0-c16",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 4,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:02:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 3,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-c16",
+            "agent": "main",
+            "guidance_id": "auth-change-safety",
+            "state": "FRESH",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 4,
+            "max": 5,
+            "reason": null,
+            "last_read": "2026-11-15T10:02:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "K01",
+      "group": "compact",
+      "decisions": [
+        {
+          "step": 2,
+          "decision": "DENY",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "EXPIRED",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-k01",
+          "agent": "main",
+          "guidance_id": "auth-change-safety",
+          "state": "EXPIRED",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 5,
+          "max": 5,
+          "reason": "CONTEXT_COMPACTION",
+          "last_read": "2026-11-15T10:00:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-k01",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-k01",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": "CONTEXT_COMPACTION",
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "leases": [
+            {
+              "session": "sess-s0-k01",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": "CONTEXT_COMPACTION",
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 2,
+            "decision": "DENY",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "EXPIRED",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-k01",
+            "agent": "main",
+            "guidance_id": "auth-change-safety",
+            "state": "EXPIRED",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 5,
+            "max": 5,
+            "reason": "CONTEXT_COMPACTION",
+            "last_read": "2026-11-15T10:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "K02",
+      "group": "compact",
+      "decisions": [
+        {
+          "step": 2,
+          "decision": "WARN",
+          "per_rule": [
+            {
+              "guidance_id": "docs-style",
+              "mode": "warn",
+              "state": "EXPIRED",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-k02",
+          "agent": "main",
+          "guidance_id": "docs-style",
+          "state": "EXPIRED",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 3,
+          "max": 3,
+          "reason": "CONTEXT_COMPACTION",
+          "last_read": "2026-11-15T10:00:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-k02",
+              "agent": "main",
+              "guidance_id": "docs-style",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 3,
+              "max": 3,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-k02",
+              "agent": "main",
+              "guidance_id": "docs-style",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 3,
+              "max": 3,
+              "reason": "CONTEXT_COMPACTION",
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "leases": [
+            {
+              "session": "sess-s0-k02",
+              "agent": "main",
+              "guidance_id": "docs-style",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 3,
+              "max": 3,
+              "reason": "CONTEXT_COMPACTION",
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 2,
+            "decision": "WARN",
+            "per_rule": [
+              {
+                "guidance_id": "docs-style",
+                "mode": "warn",
+                "state": "EXPIRED",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-k02",
+            "agent": "main",
+            "guidance_id": "docs-style",
+            "state": "EXPIRED",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 3,
+            "max": 3,
+            "reason": "CONTEXT_COMPACTION",
+            "last_read": "2026-11-15T10:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "K03",
+      "group": "compact",
+      "decisions": [
+        {
+          "step": 2,
+          "decision": "ASK",
+          "per_rule": [
+            {
+              "guidance_id": "api-contract",
+              "mode": "ask",
+              "state": "EXPIRED",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-k03",
+          "agent": "main",
+          "guidance_id": "api-contract",
+          "state": "EXPIRED",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 2,
+          "max": 2,
+          "reason": "CONTEXT_COMPACTION",
+          "last_read": "2026-11-15T10:00:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-k03",
+              "agent": "main",
+              "guidance_id": "api-contract",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 2,
+              "max": 2,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-k03",
+              "agent": "main",
+              "guidance_id": "api-contract",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 2,
+              "max": 2,
+              "reason": "CONTEXT_COMPACTION",
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "leases": [
+            {
+              "session": "sess-s0-k03",
+              "agent": "main",
+              "guidance_id": "api-contract",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 2,
+              "max": 2,
+              "reason": "CONTEXT_COMPACTION",
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 2,
+            "decision": "ASK",
+            "per_rule": [
+              {
+                "guidance_id": "api-contract",
+                "mode": "ask",
+                "state": "EXPIRED",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-k03",
+            "agent": "main",
+            "guidance_id": "api-contract",
+            "state": "EXPIRED",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 2,
+            "max": 2,
+            "reason": "CONTEXT_COMPACTION",
+            "last_read": "2026-11-15T10:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "K04",
+      "group": "compact",
+      "decisions": [
+        {
+          "step": 2,
+          "decision": "DENY",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "EXPIRED",
+              "expired_reason": null
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-k04",
+          "agent": "main",
+          "guidance_id": "auth-change-safety",
+          "state": "FRESH",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 4,
+          "max": 5,
+          "reason": null,
+          "last_read": "2026-11-15T10:03:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-k04",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-k04",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": "CONTEXT_COMPACTION",
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "leases": [
+            {
+              "session": "sess-s0-k04",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": "CONTEXT_COMPACTION",
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "leases": [
+            {
+              "session": "sess-s0-k04",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:03:00Z"
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "leases": [
+            {
+              "session": "sess-s0-k04",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 4,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:03:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 2,
+            "decision": "DENY",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "EXPIRED",
+                "expired_reason": null
+              }
+            ]
+          },
+          {
+            "step": 4,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-k04",
+            "agent": "main",
+            "guidance_id": "auth-change-safety",
+            "state": "FRESH",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 4,
+            "max": 5,
+            "reason": null,
+            "last_read": "2026-11-15T10:03:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "K05",
+      "group": "compact",
+      "decisions": [
+        {
+          "step": 3,
+          "decision": "DENY",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "EXPIRED",
+              "expired_reason": null
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "decision": "WARN",
+          "per_rule": [
+            {
+              "guidance_id": "docs-style",
+              "mode": "warn",
+              "state": "EXPIRED",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-k05",
+          "agent": "main",
+          "guidance_id": "auth-change-safety",
+          "state": "EXPIRED",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 5,
+          "max": 5,
+          "reason": "CONTEXT_COMPACTION",
+          "last_read": "2026-11-15T10:00:00Z"
+        },
+        {
+          "session": "sess-s0-k05",
+          "agent": "main",
+          "guidance_id": "docs-style",
+          "state": "EXPIRED",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 3,
+          "max": 3,
+          "reason": "CONTEXT_COMPACTION",
+          "last_read": "2026-11-15T10:01:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-k05",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-k05",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            },
+            {
+              "session": "sess-s0-k05",
+              "agent": "main",
+              "guidance_id": "docs-style",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 3,
+              "max": 3,
+              "reason": null,
+              "last_read": "2026-11-15T10:01:00Z"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "leases": [
+            {
+              "session": "sess-s0-k05",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": "CONTEXT_COMPACTION",
+              "last_read": "2026-11-15T10:00:00Z"
+            },
+            {
+              "session": "sess-s0-k05",
+              "agent": "main",
+              "guidance_id": "docs-style",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 3,
+              "max": 3,
+              "reason": "CONTEXT_COMPACTION",
+              "last_read": "2026-11-15T10:01:00Z"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "leases": [
+            {
+              "session": "sess-s0-k05",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": "CONTEXT_COMPACTION",
+              "last_read": "2026-11-15T10:00:00Z"
+            },
+            {
+              "session": "sess-s0-k05",
+              "agent": "main",
+              "guidance_id": "docs-style",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 3,
+              "max": 3,
+              "reason": "CONTEXT_COMPACTION",
+              "last_read": "2026-11-15T10:01:00Z"
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "leases": [
+            {
+              "session": "sess-s0-k05",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": "CONTEXT_COMPACTION",
+              "last_read": "2026-11-15T10:00:00Z"
+            },
+            {
+              "session": "sess-s0-k05",
+              "agent": "main",
+              "guidance_id": "docs-style",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 3,
+              "max": 3,
+              "reason": "CONTEXT_COMPACTION",
+              "last_read": "2026-11-15T10:01:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 3,
+            "decision": "DENY",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "EXPIRED",
+                "expired_reason": null
+              }
+            ]
+          },
+          {
+            "step": 4,
+            "decision": "WARN",
+            "per_rule": [
+              {
+                "guidance_id": "docs-style",
+                "mode": "warn",
+                "state": "EXPIRED",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-k05",
+            "agent": "main",
+            "guidance_id": "auth-change-safety",
+            "state": "EXPIRED",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 5,
+            "max": 5,
+            "reason": "CONTEXT_COMPACTION",
+            "last_read": "2026-11-15T10:00:00Z"
+          },
+          {
+            "session": "sess-s0-k05",
+            "agent": "main",
+            "guidance_id": "docs-style",
+            "state": "EXPIRED",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 3,
+            "max": 3,
+            "reason": "CONTEXT_COMPACTION",
+            "last_read": "2026-11-15T10:01:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "K06",
+      "group": "compact",
+      "decisions": [
+        {
+          "step": 1,
+          "decision": "DENY",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "UNSEEN",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": []
+        },
+        {
+          "step": 1,
+          "leases": []
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 1,
+            "decision": "DENY",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "UNSEEN",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": []
+      }
+    },
+    {
+      "id": "K07",
+      "group": "compact",
+      "decisions": [
+        {
+          "step": 3,
+          "decision": "DENY",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "EXPIRED",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-k07",
+          "agent": "main",
+          "guidance_id": "auth-change-safety",
+          "state": "EXPIRED",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 5,
+          "max": 5,
+          "reason": "CONTEXT_COMPACTION",
+          "last_read": "2026-11-15T10:00:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-k07",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-k07",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": "CONTEXT_COMPACTION",
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "leases": [
+            {
+              "session": "sess-s0-k07",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": "CONTEXT_COMPACTION",
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "leases": [
+            {
+              "session": "sess-s0-k07",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": "CONTEXT_COMPACTION",
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 3,
+            "decision": "DENY",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "EXPIRED",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-k07",
+            "agent": "main",
+            "guidance_id": "auth-change-safety",
+            "state": "EXPIRED",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 5,
+            "max": 5,
+            "reason": "CONTEXT_COMPACTION",
+            "last_read": "2026-11-15T10:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "K08",
+      "group": "compact",
+      "decisions": [
+        {
+          "step": 3,
+          "decision": "DENY",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "UNSEEN",
+              "expired_reason": null
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-k08",
+          "agent": "main",
+          "guidance_id": "auth-change-safety",
+          "state": "FRESH",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 4,
+          "max": 5,
+          "reason": null,
+          "last_read": "2026-11-15T10:00:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-k08",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-k08",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "leases": [
+            {
+              "session": "sess-s0-k08",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "leases": [
+            {
+              "session": "sess-s0-k08",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "leases": [
+            {
+              "session": "sess-s0-k08",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "leases": [
+            {
+              "session": "sess-s0-k08",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 4,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 3,
+            "decision": "DENY",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "UNSEEN",
+                "expired_reason": null
+              }
+            ]
+          },
+          {
+            "step": 5,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-k08",
+            "agent": "main",
+            "guidance_id": "auth-change-safety",
+            "state": "FRESH",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 4,
+            "max": 5,
+            "reason": null,
+            "last_read": "2026-11-15T10:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S01",
+      "group": "scope",
+      "decisions": [
+        {
+          "step": 2,
+          "decision": "DENY",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "UNSEEN",
+              "expired_reason": null
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-s01",
+          "agent": "main",
+          "guidance_id": "auth-change-safety",
+          "state": "FRESH",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 4,
+          "max": 5,
+          "reason": null,
+          "last_read": "2026-11-15T10:00:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-s01",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-s01",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "leases": [
+            {
+              "session": "sess-s0-s01",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "leases": [
+            {
+              "session": "sess-s0-s01",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "leases": [
+            {
+              "session": "sess-s0-s01",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 4,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 2,
+            "decision": "DENY",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "UNSEEN",
+                "expired_reason": null
+              }
+            ]
+          },
+          {
+            "step": 4,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-s01",
+            "agent": "main",
+            "guidance_id": "auth-change-safety",
+            "state": "FRESH",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 4,
+            "max": 5,
+            "reason": null,
+            "last_read": "2026-11-15T10:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "group": "scope",
+      "decisions": [
+        {
+          "step": 2,
+          "decision": "WARN",
+          "per_rule": [
+            {
+              "guidance_id": "docs-style",
+              "mode": "warn",
+              "state": "UNSEEN",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-s02",
+          "agent": "main",
+          "guidance_id": "docs-style",
+          "state": "FRESH",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 3,
+          "max": 3,
+          "reason": null,
+          "last_read": "2026-11-15T10:00:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-s02",
+              "agent": "main",
+              "guidance_id": "docs-style",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 3,
+              "max": 3,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-s02",
+              "agent": "main",
+              "guidance_id": "docs-style",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 3,
+              "max": 3,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "leases": [
+            {
+              "session": "sess-s0-s02",
+              "agent": "main",
+              "guidance_id": "docs-style",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 3,
+              "max": 3,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 2,
+            "decision": "WARN",
+            "per_rule": [
+              {
+                "guidance_id": "docs-style",
+                "mode": "warn",
+                "state": "UNSEEN",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-s02",
+            "agent": "main",
+            "guidance_id": "docs-style",
+            "state": "FRESH",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 3,
+            "max": 3,
+            "reason": null,
+            "last_read": "2026-11-15T10:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "group": "scope",
+      "decisions": [
+        {
+          "step": 2,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "decision": "DENY",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "UNSEEN",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-s03",
+          "agent": "sub-1",
+          "guidance_id": "auth-change-safety",
+          "state": "FRESH",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 4,
+          "max": 5,
+          "reason": null,
+          "last_read": "2026-11-15T10:01:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": []
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-s03",
+              "agent": "sub-1",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:01:00Z"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "leases": [
+            {
+              "session": "sess-s0-s03",
+              "agent": "sub-1",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 4,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:01:00Z"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "leases": [
+            {
+              "session": "sess-s0-s03",
+              "agent": "sub-1",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 4,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:01:00Z"
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "leases": [
+            {
+              "session": "sess-s0-s03",
+              "agent": "sub-1",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 4,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:01:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 2,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          },
+          {
+            "step": 4,
+            "decision": "DENY",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "UNSEEN",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-s03",
+            "agent": "sub-1",
+            "guidance_id": "auth-change-safety",
+            "state": "FRESH",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 4,
+            "max": 5,
+            "reason": null,
+            "last_read": "2026-11-15T10:01:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "group": "scope",
+      "decisions": [
+        {
+          "step": 4,
+          "decision": "DENY",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "UNSEEN",
+              "expired_reason": null
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-s04",
+          "agent": "main",
+          "guidance_id": "auth-change-safety",
+          "state": "FRESH",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 5,
+          "max": 5,
+          "reason": null,
+          "last_read": "2026-11-15T10:00:00Z"
+        },
+        {
+          "session": "sess-s0-s04",
+          "agent": "sub-1",
+          "guidance_id": "auth-change-safety",
+          "state": "FRESH",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 4,
+          "max": 5,
+          "reason": null,
+          "last_read": "2026-11-15T10:02:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-s04",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-s04",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "leases": [
+            {
+              "session": "sess-s0-s04",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            },
+            {
+              "session": "sess-s0-s04",
+              "agent": "sub-1",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:02:00Z"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "leases": [
+            {
+              "session": "sess-s0-s04",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            },
+            {
+              "session": "sess-s0-s04",
+              "agent": "sub-1",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:02:00Z"
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "leases": [
+            {
+              "session": "sess-s0-s04",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            },
+            {
+              "session": "sess-s0-s04",
+              "agent": "sub-1",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:02:00Z"
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "leases": [
+            {
+              "session": "sess-s0-s04",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            },
+            {
+              "session": "sess-s0-s04",
+              "agent": "sub-1",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:02:00Z"
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "leases": [
+            {
+              "session": "sess-s0-s04",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            },
+            {
+              "session": "sess-s0-s04",
+              "agent": "sub-1",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 4,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:02:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 4,
+            "decision": "DENY",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "UNSEEN",
+                "expired_reason": null
+              }
+            ]
+          },
+          {
+            "step": 6,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-s04",
+            "agent": "main",
+            "guidance_id": "auth-change-safety",
+            "state": "FRESH",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 5,
+            "max": 5,
+            "reason": null,
+            "last_read": "2026-11-15T10:00:00Z"
+          },
+          {
+            "session": "sess-s0-s04",
+            "agent": "sub-1",
+            "guidance_id": "auth-change-safety",
+            "state": "FRESH",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 4,
+            "max": 5,
+            "reason": null,
+            "last_read": "2026-11-15T10:02:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "group": "scope",
+      "decisions": [
+        {
+          "step": 2,
+          "decision": "DENY",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "EXPIRED",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-s05",
+          "agent": "main",
+          "guidance_id": "auth-change-safety",
+          "state": "EXPIRED",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 5,
+          "max": 5,
+          "reason": "PHASE_MISMATCH",
+          "last_read": "2026-11-15T10:00:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-s05",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-s05",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": "PHASE_MISMATCH",
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "leases": [
+            {
+              "session": "sess-s0-s05",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": "PHASE_MISMATCH",
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 2,
+            "decision": "DENY",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "EXPIRED",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-s05",
+            "agent": "main",
+            "guidance_id": "auth-change-safety",
+            "state": "EXPIRED",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 5,
+            "max": 5,
+            "reason": "PHASE_MISMATCH",
+            "last_read": "2026-11-15T10:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "group": "scope",
+      "decisions": [
+        {
+          "step": 3,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-s06",
+          "agent": "main",
+          "guidance_id": "auth-change-safety",
+          "state": "FRESH",
+          "phase": "review",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 4,
+          "max": 5,
+          "reason": null,
+          "last_read": "2026-11-15T10:02:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-s06",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-s06",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": "PHASE_MISMATCH",
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "leases": [
+            {
+              "session": "sess-s0-s06",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "review",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:02:00Z"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "leases": [
+            {
+              "session": "sess-s0-s06",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "review",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 4,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:02:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 3,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-s06",
+            "agent": "main",
+            "guidance_id": "auth-change-safety",
+            "state": "FRESH",
+            "phase": "review",
+            "cwd": "/proj",
+            "remaining": 4,
+            "max": 5,
+            "reason": null,
+            "last_read": "2026-11-15T10:02:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "group": "scope",
+      "decisions": [
+        {
+          "step": 2,
+          "decision": "ALLOW",
+          "per_rule": []
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-s07",
+          "agent": "main",
+          "guidance_id": "auth-change-safety",
+          "state": "EXPIRED",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 5,
+          "max": 5,
+          "reason": "PHASE_MISMATCH",
+          "last_read": "2026-11-15T10:00:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-s07",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-s07",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": "PHASE_MISMATCH",
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "leases": [
+            {
+              "session": "sess-s0-s07",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": "PHASE_MISMATCH",
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 2,
+            "decision": "ALLOW",
+            "per_rule": []
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-s07",
+            "agent": "main",
+            "guidance_id": "auth-change-safety",
+            "state": "EXPIRED",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 5,
+            "max": 5,
+            "reason": "PHASE_MISMATCH",
+            "last_read": "2026-11-15T10:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "group": "scope",
+      "decisions": [
+        {
+          "step": 4,
+          "decision": "DENY",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "EXPIRED",
+              "expired_reason": null
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-s08",
+          "agent": "main",
+          "guidance_id": "auth-change-safety",
+          "state": "FRESH",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 4,
+          "max": 5,
+          "reason": null,
+          "last_read": "2026-11-15T10:00:00Z"
+        },
+        {
+          "session": "sess-s0-s08",
+          "agent": "sub-1",
+          "guidance_id": "auth-change-safety",
+          "state": "EXPIRED",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 5,
+          "max": 5,
+          "reason": "PHASE_MISMATCH",
+          "last_read": "2026-11-15T10:02:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-s08",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-s08",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "leases": [
+            {
+              "session": "sess-s0-s08",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            },
+            {
+              "session": "sess-s0-s08",
+              "agent": "sub-1",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:02:00Z"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "leases": [
+            {
+              "session": "sess-s0-s08",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            },
+            {
+              "session": "sess-s0-s08",
+              "agent": "sub-1",
+              "guidance_id": "auth-change-safety",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": "PHASE_MISMATCH",
+              "last_read": "2026-11-15T10:02:00Z"
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "leases": [
+            {
+              "session": "sess-s0-s08",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            },
+            {
+              "session": "sess-s0-s08",
+              "agent": "sub-1",
+              "guidance_id": "auth-change-safety",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": "PHASE_MISMATCH",
+              "last_read": "2026-11-15T10:02:00Z"
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "leases": [
+            {
+              "session": "sess-s0-s08",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            },
+            {
+              "session": "sess-s0-s08",
+              "agent": "sub-1",
+              "guidance_id": "auth-change-safety",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": "PHASE_MISMATCH",
+              "last_read": "2026-11-15T10:02:00Z"
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "leases": [
+            {
+              "session": "sess-s0-s08",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 4,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            },
+            {
+              "session": "sess-s0-s08",
+              "agent": "sub-1",
+              "guidance_id": "auth-change-safety",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": "PHASE_MISMATCH",
+              "last_read": "2026-11-15T10:02:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 4,
+            "decision": "DENY",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "EXPIRED",
+                "expired_reason": null
+              }
+            ]
+          },
+          {
+            "step": 6,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-s08",
+            "agent": "main",
+            "guidance_id": "auth-change-safety",
+            "state": "FRESH",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 4,
+            "max": 5,
+            "reason": null,
+            "last_read": "2026-11-15T10:00:00Z"
+          },
+          {
+            "session": "sess-s0-s08",
+            "agent": "sub-1",
+            "guidance_id": "auth-change-safety",
+            "state": "EXPIRED",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 5,
+            "max": 5,
+            "reason": "PHASE_MISMATCH",
+            "last_read": "2026-11-15T10:02:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "U01",
+      "group": "unread",
+      "decisions": [
+        {
+          "step": 0,
+          "decision": "DENY",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "UNSEEN",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": []
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 0,
+            "decision": "DENY",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "UNSEEN",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": []
+      }
+    },
+    {
+      "id": "U02",
+      "group": "unread",
+      "decisions": [
+        {
+          "step": 0,
+          "decision": "WARN",
+          "per_rule": [
+            {
+              "guidance_id": "docs-style",
+              "mode": "warn",
+              "state": "UNSEEN",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": []
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 0,
+            "decision": "WARN",
+            "per_rule": [
+              {
+                "guidance_id": "docs-style",
+                "mode": "warn",
+                "state": "UNSEEN",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": []
+      }
+    },
+    {
+      "id": "U03",
+      "group": "unread",
+      "decisions": [
+        {
+          "step": 0,
+          "decision": "ASK",
+          "per_rule": [
+            {
+              "guidance_id": "api-contract",
+              "mode": "ask",
+              "state": "UNSEEN",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": []
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 0,
+            "decision": "ASK",
+            "per_rule": [
+              {
+                "guidance_id": "api-contract",
+                "mode": "ask",
+                "state": "UNSEEN",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": []
+      }
+    },
+    {
+      "id": "U04",
+      "group": "unread",
+      "decisions": [
+        {
+          "step": 1,
+          "decision": "DENY",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "UNSEEN",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": []
+        },
+        {
+          "step": 1,
+          "leases": []
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 1,
+            "decision": "DENY",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "UNSEEN",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": []
+      }
+    },
+    {
+      "id": "U05",
+      "group": "unread",
+      "decisions": [
+        {
+          "step": 1,
+          "decision": "DENY",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "UNSEEN",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-u05",
+          "agent": "main",
+          "guidance_id": "docs-style",
+          "state": "FRESH",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 3,
+          "max": 3,
+          "reason": null,
+          "last_read": "2026-11-15T10:00:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-u05",
+              "agent": "main",
+              "guidance_id": "docs-style",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 3,
+              "max": 3,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-u05",
+              "agent": "main",
+              "guidance_id": "docs-style",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 3,
+              "max": 3,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 1,
+            "decision": "DENY",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "UNSEEN",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-u05",
+            "agent": "main",
+            "guidance_id": "docs-style",
+            "state": "FRESH",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 3,
+            "max": 3,
+            "reason": null,
+            "last_read": "2026-11-15T10:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "U06",
+      "group": "unread",
+      "decisions": [
+        {
+          "step": 1,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "decision": "DENY",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "EXPIRED",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-u06",
+          "agent": "main",
+          "guidance_id": "auth-change-safety",
+          "state": "EXPIRED",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 0,
+          "max": 5,
+          "reason": "EDIT_BUDGET_EXHAUSTED",
+          "last_read": "2026-11-15T10:00:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-u06",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-u06",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 4,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "leases": [
+            {
+              "session": "sess-s0-u06",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 3,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "leases": [
+            {
+              "session": "sess-s0-u06",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 2,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "leases": [
+            {
+              "session": "sess-s0-u06",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 1,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "leases": [
+            {
+              "session": "sess-s0-u06",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 0,
+              "max": 5,
+              "reason": "EDIT_BUDGET_EXHAUSTED",
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "leases": [
+            {
+              "session": "sess-s0-u06",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 0,
+              "max": 5,
+              "reason": "EDIT_BUDGET_EXHAUSTED",
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 1,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          },
+          {
+            "step": 2,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          },
+          {
+            "step": 3,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          },
+          {
+            "step": 4,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          },
+          {
+            "step": 5,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          },
+          {
+            "step": 6,
+            "decision": "DENY",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "EXPIRED",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-u06",
+            "agent": "main",
+            "guidance_id": "auth-change-safety",
+            "state": "EXPIRED",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 0,
+            "max": 5,
+            "reason": "EDIT_BUDGET_EXHAUSTED",
+            "last_read": "2026-11-15T10:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "U07",
+      "group": "unread",
+      "decisions": [
+        {
+          "step": 1,
+          "decision": "ASK",
+          "per_rule": [
+            {
+              "guidance_id": "api-contract",
+              "mode": "ask",
+              "state": "UNSEEN",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-u07",
+          "agent": "main",
+          "guidance_id": "docs-style",
+          "state": "FRESH",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 3,
+          "max": 3,
+          "reason": null,
+          "last_read": "2026-11-15T10:00:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-u07",
+              "agent": "main",
+              "guidance_id": "docs-style",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 3,
+              "max": 3,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-u07",
+              "agent": "main",
+              "guidance_id": "docs-style",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 3,
+              "max": 3,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 1,
+            "decision": "ASK",
+            "per_rule": [
+              {
+                "guidance_id": "api-contract",
+                "mode": "ask",
+                "state": "UNSEEN",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-u07",
+            "agent": "main",
+            "guidance_id": "docs-style",
+            "state": "FRESH",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 3,
+            "max": 3,
+            "reason": null,
+            "last_read": "2026-11-15T10:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "U08",
+      "group": "unread",
+      "decisions": [
+        {
+          "step": 1,
+          "decision": "DENY",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "EXPIRED",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-u08",
+          "agent": "main",
+          "guidance_id": "auth-change-safety",
+          "state": "EXPIRED",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 0,
+          "max": 0,
+          "reason": "EDIT_BUDGET_EXHAUSTED",
+          "last_read": "2026-11-15T10:00:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-u08",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 0,
+              "max": 0,
+              "reason": "EDIT_BUDGET_EXHAUSTED",
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-u08",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 0,
+              "max": 0,
+              "reason": "EDIT_BUDGET_EXHAUSTED",
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 1,
+            "decision": "DENY",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "EXPIRED",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-u08",
+            "agent": "main",
+            "guidance_id": "auth-change-safety",
+            "state": "EXPIRED",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 0,
+            "max": 0,
+            "reason": "EDIT_BUDGET_EXHAUSTED",
+            "last_read": "2026-11-15T10:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "W01",
+      "group": "cwd",
+      "decisions": [
+        {
+          "step": 2,
+          "decision": "DENY",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "EXPIRED",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-w01",
+          "agent": "main",
+          "guidance_id": "auth-change-safety",
+          "state": "EXPIRED",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 5,
+          "max": 5,
+          "reason": "CWD_MISMATCH",
+          "last_read": "2026-11-15T10:00:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-w01",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-w01",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": "CWD_MISMATCH",
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "leases": [
+            {
+              "session": "sess-s0-w01",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": "CWD_MISMATCH",
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 2,
+            "decision": "DENY",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "EXPIRED",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-w01",
+            "agent": "main",
+            "guidance_id": "auth-change-safety",
+            "state": "EXPIRED",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 5,
+            "max": 5,
+            "reason": "CWD_MISMATCH",
+            "last_read": "2026-11-15T10:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "W02",
+      "group": "cwd",
+      "decisions": [
+        {
+          "step": 2,
+          "decision": "WARN",
+          "per_rule": [
+            {
+              "guidance_id": "docs-style",
+              "mode": "warn",
+              "state": "EXPIRED",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-w02",
+          "agent": "main",
+          "guidance_id": "docs-style",
+          "state": "EXPIRED",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 3,
+          "max": 3,
+          "reason": "CWD_MISMATCH",
+          "last_read": "2026-11-15T10:00:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-w02",
+              "agent": "main",
+              "guidance_id": "docs-style",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 3,
+              "max": 3,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-w02",
+              "agent": "main",
+              "guidance_id": "docs-style",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 3,
+              "max": 3,
+              "reason": "CWD_MISMATCH",
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "leases": [
+            {
+              "session": "sess-s0-w02",
+              "agent": "main",
+              "guidance_id": "docs-style",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 3,
+              "max": 3,
+              "reason": "CWD_MISMATCH",
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 2,
+            "decision": "WARN",
+            "per_rule": [
+              {
+                "guidance_id": "docs-style",
+                "mode": "warn",
+                "state": "EXPIRED",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-w02",
+            "agent": "main",
+            "guidance_id": "docs-style",
+            "state": "EXPIRED",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 3,
+            "max": 3,
+            "reason": "CWD_MISMATCH",
+            "last_read": "2026-11-15T10:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "W03",
+      "group": "cwd",
+      "decisions": [
+        {
+          "step": 2,
+          "decision": "ASK",
+          "per_rule": [
+            {
+              "guidance_id": "api-contract",
+              "mode": "ask",
+              "state": "EXPIRED",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-w03",
+          "agent": "main",
+          "guidance_id": "api-contract",
+          "state": "EXPIRED",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 2,
+          "max": 2,
+          "reason": "CWD_MISMATCH",
+          "last_read": "2026-11-15T10:00:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-w03",
+              "agent": "main",
+              "guidance_id": "api-contract",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 2,
+              "max": 2,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-w03",
+              "agent": "main",
+              "guidance_id": "api-contract",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 2,
+              "max": 2,
+              "reason": "CWD_MISMATCH",
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "leases": [
+            {
+              "session": "sess-s0-w03",
+              "agent": "main",
+              "guidance_id": "api-contract",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 2,
+              "max": 2,
+              "reason": "CWD_MISMATCH",
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 2,
+            "decision": "ASK",
+            "per_rule": [
+              {
+                "guidance_id": "api-contract",
+                "mode": "ask",
+                "state": "EXPIRED",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-w03",
+            "agent": "main",
+            "guidance_id": "api-contract",
+            "state": "EXPIRED",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 2,
+            "max": 2,
+            "reason": "CWD_MISMATCH",
+            "last_read": "2026-11-15T10:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "W04",
+      "group": "cwd",
+      "decisions": [
+        {
+          "step": 1,
+          "decision": "DENY",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "EXPIRED",
+              "expired_reason": "CWD_MISMATCH"
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-w04",
+          "agent": "main",
+          "guidance_id": "auth-change-safety",
+          "state": "EXPIRED",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 5,
+          "max": 5,
+          "reason": "CWD_MISMATCH",
+          "last_read": "2026-11-15T10:00:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-w04",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-w04",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": "CWD_MISMATCH",
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 1,
+            "decision": "DENY",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "EXPIRED",
+                "expired_reason": "CWD_MISMATCH"
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-w04",
+            "agent": "main",
+            "guidance_id": "auth-change-safety",
+            "state": "EXPIRED",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 5,
+            "max": 5,
+            "reason": "CWD_MISMATCH",
+            "last_read": "2026-11-15T10:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "W05",
+      "group": "cwd",
+      "decisions": [
+        {
+          "step": 3,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-w05",
+          "agent": "main",
+          "guidance_id": "auth-change-safety",
+          "state": "FRESH",
+          "phase": "implementation",
+          "cwd": "hmac:84d9b501f88b40f3c97cd911b37ad932dbca58cf8dae4ec423296064d05ea0db",
+          "remaining": 4,
+          "max": 5,
+          "reason": null,
+          "last_read": "2026-11-15T10:02:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-w05",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-w05",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": "CWD_MISMATCH",
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "leases": [
+            {
+              "session": "sess-s0-w05",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:84d9b501f88b40f3c97cd911b37ad932dbca58cf8dae4ec423296064d05ea0db",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:02:00Z"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "leases": [
+            {
+              "session": "sess-s0-w05",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:84d9b501f88b40f3c97cd911b37ad932dbca58cf8dae4ec423296064d05ea0db",
+              "remaining": 4,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:02:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 3,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-w05",
+            "agent": "main",
+            "guidance_id": "auth-change-safety",
+            "state": "FRESH",
+            "phase": "implementation",
+            "cwd": "/proj/sub",
+            "remaining": 4,
+            "max": 5,
+            "reason": null,
+            "last_read": "2026-11-15T10:02:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "W06",
+      "group": "cwd",
+      "decisions": [
+        {
+          "step": 2,
+          "decision": "DENY",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "EXPIRED",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-w06",
+          "agent": "main",
+          "guidance_id": "auth-change-safety",
+          "state": "EXPIRED",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 5,
+          "max": 5,
+          "reason": "CWD_MISMATCH",
+          "last_read": "2026-11-15T10:00:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-w06",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-w06",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": "CWD_MISMATCH",
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "leases": [
+            {
+              "session": "sess-s0-w06",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": "CWD_MISMATCH",
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 2,
+            "decision": "DENY",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "EXPIRED",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-w06",
+            "agent": "main",
+            "guidance_id": "auth-change-safety",
+            "state": "EXPIRED",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 5,
+            "max": 5,
+            "reason": "CWD_MISMATCH",
+            "last_read": "2026-11-15T10:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "W07",
+      "group": "cwd",
+      "decisions": [
+        {
+          "step": 2,
+          "decision": "ALLOW",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "FRESH",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-w07",
+          "agent": "main",
+          "guidance_id": "auth-change-safety",
+          "state": "FRESH",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 4,
+          "max": 5,
+          "reason": null,
+          "last_read": "2026-11-15T10:00:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-w07",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-w07",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "leases": [
+            {
+              "session": "sess-s0-w07",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 4,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 2,
+            "decision": "ALLOW",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "FRESH",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-w07",
+            "agent": "main",
+            "guidance_id": "auth-change-safety",
+            "state": "FRESH",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 4,
+            "max": 5,
+            "reason": null,
+            "last_read": "2026-11-15T10:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "W08",
+      "group": "cwd",
+      "decisions": [
+        {
+          "step": 3,
+          "decision": "DENY",
+          "per_rule": [
+            {
+              "guidance_id": "auth-change-safety",
+              "mode": "block",
+              "state": "EXPIRED",
+              "expired_reason": null
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "decision": "WARN",
+          "per_rule": [
+            {
+              "guidance_id": "docs-style",
+              "mode": "warn",
+              "state": "EXPIRED",
+              "expired_reason": null
+            }
+          ]
+        }
+      ],
+      "leases": [
+        {
+          "session": "sess-s0-w08",
+          "agent": "main",
+          "guidance_id": "auth-change-safety",
+          "state": "EXPIRED",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 5,
+          "max": 5,
+          "reason": "CWD_MISMATCH",
+          "last_read": "2026-11-15T10:00:00Z"
+        },
+        {
+          "session": "sess-s0-w08",
+          "agent": "main",
+          "guidance_id": "docs-style",
+          "state": "EXPIRED",
+          "phase": "implementation",
+          "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+          "remaining": 3,
+          "max": 3,
+          "reason": "CWD_MISMATCH",
+          "last_read": "2026-11-15T10:01:00Z"
+        }
+      ],
+      "snapshots": [
+        {
+          "step": 0,
+          "leases": [
+            {
+              "session": "sess-s0-w08",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "leases": [
+            {
+              "session": "sess-s0-w08",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": null,
+              "last_read": "2026-11-15T10:00:00Z"
+            },
+            {
+              "session": "sess-s0-w08",
+              "agent": "main",
+              "guidance_id": "docs-style",
+              "state": "FRESH",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 3,
+              "max": 3,
+              "reason": null,
+              "last_read": "2026-11-15T10:01:00Z"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "leases": [
+            {
+              "session": "sess-s0-w08",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": "CWD_MISMATCH",
+              "last_read": "2026-11-15T10:00:00Z"
+            },
+            {
+              "session": "sess-s0-w08",
+              "agent": "main",
+              "guidance_id": "docs-style",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 3,
+              "max": 3,
+              "reason": "CWD_MISMATCH",
+              "last_read": "2026-11-15T10:01:00Z"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "leases": [
+            {
+              "session": "sess-s0-w08",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": "CWD_MISMATCH",
+              "last_read": "2026-11-15T10:00:00Z"
+            },
+            {
+              "session": "sess-s0-w08",
+              "agent": "main",
+              "guidance_id": "docs-style",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 3,
+              "max": 3,
+              "reason": "CWD_MISMATCH",
+              "last_read": "2026-11-15T10:01:00Z"
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "leases": [
+            {
+              "session": "sess-s0-w08",
+              "agent": "main",
+              "guidance_id": "auth-change-safety",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 5,
+              "max": 5,
+              "reason": "CWD_MISMATCH",
+              "last_read": "2026-11-15T10:00:00Z"
+            },
+            {
+              "session": "sess-s0-w08",
+              "agent": "main",
+              "guidance_id": "docs-style",
+              "state": "EXPIRED",
+              "phase": "implementation",
+              "cwd": "hmac:ab6e141475d1014a3d041da318f33cd2e6e073231d4e6dc846c761672f060a7a",
+              "remaining": 3,
+              "max": 3,
+              "reason": "CWD_MISMATCH",
+              "last_read": "2026-11-15T10:01:00Z"
+            }
+          ]
+        }
+      ],
+      "golden": {
+        "decisions": [
+          {
+            "step": 3,
+            "decision": "DENY",
+            "per_rule": [
+              {
+                "guidance_id": "auth-change-safety",
+                "mode": "block",
+                "state": "EXPIRED",
+                "expired_reason": null
+              }
+            ]
+          },
+          {
+            "step": 4,
+            "decision": "WARN",
+            "per_rule": [
+              {
+                "guidance_id": "docs-style",
+                "mode": "warn",
+                "state": "EXPIRED",
+                "expired_reason": null
+              }
+            ]
+          }
+        ],
+        "leases": [
+          {
+            "session": "sess-s0-w08",
+            "agent": "main",
+            "guidance_id": "auth-change-safety",
+            "state": "EXPIRED",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 5,
+            "max": 5,
+            "reason": "CWD_MISMATCH",
+            "last_read": "2026-11-15T10:00:00Z"
+          },
+          {
+            "session": "sess-s0-w08",
+            "agent": "main",
+            "guidance_id": "docs-style",
+            "state": "EXPIRED",
+            "phase": "implementation",
+            "cwd": "/proj",
+            "remaining": 3,
+            "max": 3,
+            "reason": "CWD_MISMATCH",
+            "last_read": "2026-11-15T10:01:00Z"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+
+> guidancepulse@1.0.0 test:privacy-sanitizer
+> vitest run tests/unit/privacy-sanitizer.test.ts
+
+
+ RUN  v3.2.4 /home/hatch/workspace/p025-guidancepulse/02_source
+
+ ✓ tests/unit/privacy-sanitizer.test.ts (25 tests) 18ms
+
+ Test Files  1 passed (1)
+      Tests  25 passed (25)
+   Start at  13:31:03
+   Duration  761ms (transform 160ms, setup 0ms, collect 217ms, tests 18ms, environment 0ms, prepare 100ms)
+

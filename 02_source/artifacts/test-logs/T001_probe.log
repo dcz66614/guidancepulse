@@ -1,0 +1,105 @@
+=== T001 probe log ===
+date_utc: 2026-11-15T13:19:39Z
+--- uname ---
+Linux htch-runtime 7.0.0-44-generic #1 SMP PREEMPT_DYNAMIC Fri Nov  6 01:23:31 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+--- os-release ---
+PRETTY_NAME="Ubuntu 24.04.5 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.5 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+IMAGE_ID="hatch-image"
+IMAGE_VERSION="0.1.46"
+--- arch ---
+x86_64
+x86_64
+--- cpu ---
+CPU(s):                                  4
+Model name:                              AMD EPYC 9D25 126-Core Processor
+Thread(s) per core:                      1
+Core(s) per socket:                      4
+Socket(s):                               1
+NUMA node0 CPU(s):                       0-3
+4
+--- memory ---
+               total        used        free      shared  buff/cache   available
+Mem:           7.7Gi       6.7Gi       139Mi        87Mi       1.3Gi       1.1Gi
+Swap:          1.0Gi       180Mi       843Mi
+--- disk ---
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mapper/rv  150G   22G  129G  15% /home/hatch
+/dev/mapper/rv  150G   22G  129G  15% /home/hatch
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           512M  1.1M  511M   1% /tmp
+--- node ---
+v24.22.1
+exit=0
+--- npm ---
+10.9.4
+exit=0
+--- python3 ---
+Python 3.12.3
+--- claude ---
+/bin/bash: line 14: claude: command not found
+exit=127
+--- which claude ---
+claude: not found in PATH
+--- git ---
+git version 2.43.0
+--- browsers ---
+no browser binary in PATH
+--- env proxies ---
+HTTPS_PROXY=http://hatch-runtime:09b088eac24a4d889c044f46af36510b@hatch-egress-proxy:3128
+=== Acceptance commands (run 2026-11-15T13:2xZ, cwd=02_source) ===
+--- node --version ---
+v24.22.1
+exit=0
+--- npm --version ---
+10.9.4
+exit=0
+--- claude --version ---
+/bin/bash: line 5: claude: command not found
+exit=127
+--- node scripts/probe-hooks.mjs --synthetic ---
+{"event":"SessionStart","ok":true,"known":true,"canBlock":false,"decision":null,"probeMs":0.196,"errors":[]}
+{"event":"InstructionsLoaded","ok":true,"known":true,"canBlock":false,"decision":null,"probeMs":0.01,"errors":[]}
+{"event":"PostToolUse","ok":true,"known":true,"canBlock":false,"decision":null,"probeMs":0.007,"errors":[]}
+{"event":"PreToolUse","ok":true,"known":true,"canBlock":true,"decision":{"permissionDecision":"deny","permissionDecisionReason":"synthetic lease state UNSEEN: guidance not (re-)read in this scope","wouldBeExitCode":2,"reason":"synthetic UNSEEN/EXPIRED lease"},"probeMs":0.321,"errors":[]}
+{"event":"PreToolUse","ok":true,"known":true,"canBlock":true,"decision":{"permissionDecision":"allow","wouldBeExitCode":0,"reason":"synthetic FRESH lease"},"probeMs":0.015,"errors":[]}
+{"event":"PreCompact","ok":true,"known":true,"canBlock":true,"decision":{"action":"invalidate leases in scope (synthetic)","wouldBeExitCode":0},"probeMs":0.012,"errors":[]}
+{"event":"PostCompact","ok":true,"known":true,"canBlock":false,"decision":null,"probeMs":0.006,"errors":[]}
+{"event":"CwdChanged","ok":true,"known":true,"canBlock":false,"decision":null,"probeMs":0.005,"errors":[]}
+{"event":"SubagentStart","ok":true,"known":true,"canBlock":false,"decision":null,"probeMs":0.017,"errors":[]}
+{"event":"SessionEnd","ok":true,"known":true,"canBlock":false,"decision":null,"probeMs":0.016,"errors":[]}
+{"summary":{"totalSyntheticEvents":10,"distinctEvents":9,"failed":0,"eventsSeen":["CwdChanged","InstructionsLoaded","PostCompact","PostToolUse","PreCompact","PreToolUse","SessionEnd","SessionStart","SubagentStart"],"totalProbeMs":3,"note":"Synthetic-only probe. No Claude Code binary, model API, real prompt, transcript, source or credential was used. Real Claude Code hook behaviour is NOT verified on this VM because `claude` is not installed."}}
+exit=0
+--- stdin mode smoke test ---
+{
+  "ok": true,
+  "errors": [],
+  "event": "PreToolUse",
+  "known": true,
+  "canBlock": true,
+  "decision": {
+    "permissionDecision": "deny",
+    "permissionDecisionReason": "synthetic lease state UNSEEN: guidance not (re-)read in this scope",
+    "wouldBeExitCode": 2,
+    "reason": "synthetic UNSEEN/EXPIRED lease"
+  }
+}
+exit=0
+--- node cold-start timing (3 runs, relevant to S0 p95 <10ms incl. subprocess start) ---
+node -e empty startup run 1: 75.7 ms
+node -e empty startup run 2: 81.1 ms
+node -e empty startup run 3: 98.7 ms
+probe-hooks --synthetic run 1: 92.6 ms
+probe-hooks --synthetic run 2: 80.7 ms
+probe-hooks --synthetic run 3: 89.1 ms

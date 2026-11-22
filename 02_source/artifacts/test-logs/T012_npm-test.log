@@ -1,0 +1,43 @@
+
+> guidancepulse@1.0.0 test
+> vitest run
+
+
+ RUN  v3.2.4 /home/hatch/workspace/p025-guidancepulse/02_source
+
+ ✓ tests/unit/concurrency.test.ts (2 tests) 12915ms
+   ✓ multi-process concurrent writes > 8 Hook subprocesses x 25 events: nothing lost, nothing duplicated  2834ms
+   ✓ multi-process concurrent writes > 4 subprocesses compacting one shared session: all leases expire, 4 events land  1221ms
+ ✓ tests/e2e/privacy-scan.test.ts (1 test) 11619ms
+   ✓ T012 privacy regression: canaries never persist > install + Read + Write allow + PreCompact + Write deny leaves zero canaries  11616ms
+ ✓ tests/e2e/cli-chain.test.ts (1 test) 37124ms
+   ✓ T012 E2E: CLI install → status → phase → hook round-trip → uninstall > runs the user journey through bin/guidancepulse from the project cwd  37118ms
+ ✓ tests/integration/offline.test.ts (2 tests) 11227ms
+   ✓ T012 offline: no external requests > runtime: Read → FRESH → Write allow inside a network namespace with no interfaces  11017ms
+ ✓ tests/unit/installer.test.ts (16 tests) 39501ms
+   ✓ hook entry build (real tsc compile) > builds launchers and the compiled entry; a synthetic PreToolUse runs through the launcher  11124ms
+   ✓ launcher preserves caller cwd (FIX-T011 regression) > install --project . from a foreign cwd installs into that directory, not 02_source  15588ms
+   ✓ launcher preserves caller cwd (FIX-T011 regression) > install with no --project flag defaults to the caller's cwd, not 02_source  12601ms
+ ✓ tests/unit/invalidation-boundaries.test.ts (15 tests) 285ms
+ ✓ tests/unit/store.test.ts (21 tests) 220ms
+ ✓ tests/unit/pre-tool-use.test.ts (29 tests) 284ms
+ ✓ tests/unit/config.test.ts (76 tests) 220ms
+ ✓ tests/unit/s0-gate.test.ts (12 tests) 310ms
+ ✓ tests/unit/golden.test.ts (53 tests) 210ms
+ ✓ tests/unit/hooks-adapter.test.ts (30 tests) 176ms
+ ✓ tests/unit/privacy.test.ts (15 tests) 165ms
+ ✓ tests/unit/phase-cli.test.ts (13 tests) 142ms
+ ✓ tests/unit/lease-machine.test.ts (33 tests) 78ms
+ ✓ tests/unit/ui.test.ts (16 tests) 28ms
+ ✓ tests/unit/path-matcher.test.ts (16 tests) 16ms
+ ✓ tests/unit/privacy-sanitizer.test.ts (25 tests) 67ms
+ ✓ tests/integration/full-chain.test.ts (2 tests) 13821ms
+   ✓ T012 full chain: install → Read → FRESH → Write allow → PreCompact → EXPIRED → Write deny → Read → FRESH > runs the whole chain through the installed hook launchers  9896ms
+   ✓ T012 full chain: install → Read → FRESH → Write allow → PreCompact → EXPIRED → Write deny → Read → FRESH > rejects a Write to a path outside the project without a gate (ignored, exit 0)  3920ms
+ ✓ tests/unit/ui-component.test.tsx (3 tests) 163ms
+
+ Test Files  20 passed (20)
+      Tests  381 passed (381)
+   Start at  15:56:20
+   Duration  54.49s (transform 2.70s, setup 0ms, collect 9.74s, tests 128.57s, environment 3.59s, prepare 4.74s)
+

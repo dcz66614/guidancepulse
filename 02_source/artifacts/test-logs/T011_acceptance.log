@@ -1,0 +1,183 @@
+=== T011 acceptance (re-run after backup-rule fix) — 2026-11-15T15:36:40Z ===
+--- 1. guidancepulse init ---
+guidancepulse: initialised /home/hatch/workspace/p025-guidancepulse/02_source (config.yaml, state.sqlite, path-key.bin)
+exit: 0
+--- 2. guidancepulse install --project . (first) ---
+guidancepulse: installed at /home/hatch/workspace/p025-guidancepulse/02_source (added 6 hook entries, already present 0)
+settings: /home/hatch/workspace/p025-guidancepulse/02_source/.claude/settings.local.json (no prior settings file, no backup needed)
+hook scripts: built (6 launchers, entry /home/hatch/workspace/p025-guidancepulse/02_source/.guidancepulse/hooks/.build/scripts/hook-entry.js)
+exit: 0
+--- settings after install (sha256 + onFailure/timeout grep) ---
+3d93823eb0fe070bf40d847d62d4e291c9c1069e2481312722e91e330122539c  .claude/settings.local.json
+2
+3
+--- 3. guidancepulse install --project . (second, idempotency) ---
+guidancepulse: already installed at /home/hatch/workspace/p025-guidancepulse/02_source (own hooks: 6/6, no changes)
+settings: /home/hatch/workspace/p025-guidancepulse/02_source/.claude/settings.local.json (already installed; no backup needed)
+hook scripts: built (6 launchers, entry /home/hatch/workspace/p025-guidancepulse/02_source/.guidancepulse/hooks/.build/scripts/hook-entry.js)
+exit: 0
+settings.local.json
+--- 4. guidancepulse status ---
+project: /home/hatch/workspace/p025-guidancepulse/02_source
+initialised: yes (config: yes, db: yes, path-key: yes)
+installed: yes (own hooks: 6/6)
+events: 0
+scopes: none
+exit: 0
+--- 5. guidancepulse uninstall --project . ---
+guidancepulse: uninstalled at /home/hatch/workspace/p025-guidancepulse/02_source (removed 6 hook entries; settings file deleted (was created by install and left empty))
+exit: 0
+settings.local.json.guidancepulse-backup.json
+--- 6. guidancepulse status (after uninstall) ---
+project: /home/hatch/workspace/p025-guidancepulse/02_source
+initialised: yes (config: yes, db: yes, path-key: yes)
+installed: no (own hooks: 0/6, no settings file)
+events: 0
+scopes: none
+exit: 0
+ Test Files  1 passed (1)
+      Tests  14 passed (14)
+   Start at  15:36:53
+   Duration  4.65s (transform 304ms, setup 0ms, collect 422ms, tests 3.61s, environment 0ms, prepare 127ms)
+
+test:installer exit: 0
+=== Supplementary: pre-existing user settings (foreign hooks) ===
+--- before: user settings sha256 ---
+b4141b4232013ec45a8614248410f400a1f8e91d66cfa7f1ce9596ca9b5acf3e  /tmp/gp-t011-user/.claude/settings.local.json
+--- install ---
+guidancepulse: installed at /tmp/gp-t011-user (added 6 hook entries, already present 0)
+settings: /tmp/gp-t011-user/.claude/settings.local.json (backup written: /tmp/gp-t011-user/.claude/settings.local.json.guidancepulse-backup.json)
+hook scripts: built (6 launchers, entry /tmp/gp-t011-user/.guidancepulse/hooks/.build/scripts/hook-entry.js)
+exit: 0
+--- backup == original? ---
+backup identical to original: yes
+--- diff: original vs after install (only own hooks added) ---
+3c3,5
+<     "allow": ["Bash(npm test)"]
+---
+>     "allow": [
+>       "Bash(npm test)"
+>     ]
+10c12,33
+<           { "type": "command", "command": "node", "args": ["/home/user/my-linter.js"], "timeout": 30 }
+---
+>           {
+>             "type": "command",
+>             "command": "node",
+>             "args": [
+>               "/home/user/my-linter.js"
+>             ],
+>             "timeout": 30
+>           }
+>         ]
+>       },
+>       {
+>         "matcher": "Write|Edit",
+>         "hooks": [
+>           {
+>             "type": "command",
+>             "command": "node",
+>             "args": [
+>               "${CLAUDE_PROJECT_DIR}/.guidancepulse/hooks/pre-tool-use.js"
+>             ],
+>             "onFailure": "block",
+>             "timeout": 10
+>           }
+15c38,119
+<       { "hooks": [{ "type": "command", "command": "echo", "args": ["hello"] }] }
+---
+>       {
+>         "hooks": [
+>           {
+>             "type": "command",
+>             "command": "echo",
+>             "args": [
+>               "hello"
+>             ]
+>           }
+>         ]
+>       }
+>     ],
+>     "PostToolUse": [
+>       {
+>         "matcher": "Read",
+>         "hooks": [
+>           {
+>             "type": "command",
+>             "command": "node",
+>             "args": [
+>               "${CLAUDE_PROJECT_DIR}/.guidancepulse/hooks/post-tool-use.js"
+>             ],
+>             "timeout": 10
+>           }
+>         ]
+>       }
+>     ],
+>     "PreCompact": [
+>       {
+>         "hooks": [
+>           {
+>             "type": "command",
+>             "command": "node",
+>             "args": [
+>               "${CLAUDE_PROJECT_DIR}/.guidancepulse/hooks/pre-compact.js"
+>             ],
+>             "onFailure": "block",
+>             "timeout": 10
+>           }
+>         ]
+>       }
+>     ],
+>     "InstructionsLoaded": [
+>       {
+>         "hooks": [
+>           {
+--- uninstall ---
+guidancepulse: uninstalled at /tmp/gp-t011-user (removed 6 hook entries)
+exit: 0
+--- diff: after uninstall vs original (must be empty) ---
+3c3,5
+<     "allow": ["Bash(npm test)"]
+---
+>     "allow": [
+>       "Bash(npm test)"
+>     ]
+10c12,19
+<           { "type": "command", "command": "node", "args": ["/home/user/my-linter.js"], "timeout": 30 }
+---
+>           {
+>             "type": "command",
+>             "command": "node",
+>             "args": [
+>               "/home/user/my-linter.js"
+>             ],
+>             "timeout": 30
+>           }
+15c24,34
+<       { "hooks": [{ "type": "command", "command": "echo", "args": ["hello"] }] }
+---
+>       {
+>         "hooks": [
+>           {
+>             "type": "command",
+>             "command": "echo",
+>             "args": [
+>               "hello"
+>             ]
+>           }
+>         ]
+>       }
+--- status after uninstall ---
+project: /tmp/gp-t011-user
+initialised: yes (config: yes, db: yes, path-key: yes)
+installed: no (own hooks: 0/6)
+events: 0
+scopes: none
+exit: 0
+JSON-semantic equality after uninstall: True
+user hooks preserved: True
+--- note appended ---
+NOTE: install/uninstall rewrite settings.local.json as canonical 2-space JSON
+(JSON round-trip). User content is preserved semantically; only whitespace
+formatting is normalised. The backup file keeps the original bytes exactly,
+so byte-level restore is always available from the backup.

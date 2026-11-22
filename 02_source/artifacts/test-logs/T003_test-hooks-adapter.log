@@ -1,0 +1,14 @@
+
+> guidancepulse@1.0.0 test:hooks-adapter
+> vitest run tests/unit/hooks-adapter.test.ts
+
+
+ RUN  v3.2.4 /home/hatch/workspace/p025-guidancepulse/02_source
+
+ ✓ tests/unit/hooks-adapter.test.ts (30 tests) 28ms
+
+ Test Files  1 passed (1)
+      Tests  30 passed (30)
+   Start at  13:31:02
+   Duration  907ms (transform 238ms, setup 0ms, collect 281ms, tests 28ms, environment 0ms, prepare 200ms)
+

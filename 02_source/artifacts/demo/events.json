@@ -1,0 +1,103 @@
+[
+  {
+    "type": "READ_SUCCEEDED",
+    "sessionScopeId": "demo-session-01",
+    "agentScopeId": "main",
+    "guidanceId": "auth-change-safety",
+    "pathId": "hmac:c40061aaf5036ff1d69ee9cc6a69f2365416543d20c6c28a988e77c92dbb39d8",
+    "timestampUtc": "2026-11-15T10:14:03Z"
+  },
+  {
+    "type": "WRITE_CHECKED",
+    "sessionScopeId": "demo-session-01",
+    "agentScopeId": "main",
+    "guidanceId": "auth-change-safety",
+    "pathId": "hmac:c40061aaf5036ff1d69ee9cc6a69f2365416543d20c6c28a988e77c92dbb39d8",
+    "decision": "ALLOW",
+    "state": "FRESH",
+    "timestampUtc": "2026-11-15T10:15:20Z"
+  },
+  {
+    "type": "PHASE_CHANGED",
+    "sessionScopeId": "demo-session-01",
+    "agentScopeId": "main",
+    "phaseId": "review",
+    "timestampUtc": "2026-11-15T10:20:02Z"
+  },
+  {
+    "type": "READ_SUCCEEDED",
+    "sessionScopeId": "demo-session-01",
+    "agentScopeId": "main",
+    "guidanceId": "release-checklist",
+    "pathId": "hmac:6cfdbd7163c5312f76b7058f68258d9c76b7fd048d380fc60fcf457257a6f41f",
+    "timestampUtc": "2026-11-15T10:21:37Z"
+  },
+  {
+    "type": "WRITE_CHECKED",
+    "sessionScopeId": "demo-session-01",
+    "agentScopeId": "main",
+    "guidanceId": "release-checklist",
+    "pathId": "hmac:6cfdbd7163c5312f76b7058f68258d9c76b7fd048d380fc60fcf457257a6f41f",
+    "decision": "ALLOW",
+    "state": "FRESH",
+    "timestampUtc": "2026-11-15T10:24:10Z"
+  },
+  {
+    "type": "PRE_COMPACT",
+    "sessionScopeId": "demo-session-01",
+    "agentScopeId": "main",
+    "timestampUtc": "2026-11-15T10:31:55Z"
+  },
+  {
+    "type": "WRITE_CHECKED",
+    "sessionScopeId": "demo-session-01",
+    "agentScopeId": "main",
+    "guidanceId": "release-checklist",
+    "pathId": "hmac:6cfdbd7163c5312f76b7058f68258d9c76b7fd048d380fc60fcf457257a6f41f",
+    "decision": "DENY",
+    "state": "EXPIRED",
+    "timestampUtc": "2026-11-15T10:33:02Z"
+  },
+  {
+    "type": "CWD_CHANGED",
+    "sessionScopeId": "demo-session-01",
+    "agentScopeId": "main",
+    "oldPathId": "hmac:f60c8b46b30aa14695bd67bae810ca0e59b86580fd7d4c7152c24a58ccea4aac",
+    "newPathId": "hmac:087bffb6d459a89740dfbd375a6d1dc64e97ebb23c7ae0160b8730dcefc1d219",
+    "timestampUtc": "2026-11-15T10:40:18Z"
+  },
+  {
+    "type": "SUBAGENT_STARTED",
+    "sessionScopeId": "demo-session-01",
+    "agentScopeId": "subagent-01",
+    "timestampUtc": "2026-11-15T10:45:44Z"
+  },
+  {
+    "type": "WRITE_CHECKED",
+    "sessionScopeId": "demo-session-01",
+    "agentScopeId": "main",
+    "guidanceId": "api-rate-limits",
+    "pathId": "hmac:6151e741db17b2c0dac5560e7fccd03c61b2b8f37435f2e157c62855acaa1856",
+    "decision": "DENY",
+    "state": "UNSEEN",
+    "timestampUtc": "2026-11-15T10:47:09Z"
+  },
+  {
+    "type": "READ_SUCCEEDED",
+    "sessionScopeId": "demo-session-01",
+    "agentScopeId": "main",
+    "guidanceId": "release-checklist",
+    "pathId": "hmac:6cfdbd7163c5312f76b7058f68258d9c76b7fd048d380fc60fcf457257a6f41f",
+    "timestampUtc": "2026-11-15T10:52:30Z"
+  },
+  {
+    "type": "WRITE_CHECKED",
+    "sessionScopeId": "demo-session-01",
+    "agentScopeId": "main",
+    "guidanceId": "release-checklist",
+    "pathId": "hmac:6cfdbd7163c5312f76b7058f68258d9c76b7fd048d380fc60fcf457257a6f41f",
+    "decision": "ALLOW",
+    "state": "FRESH",
+    "timestampUtc": "2026-11-15T10:53:15Z"
+  }
+]

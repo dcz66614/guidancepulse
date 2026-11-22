@@ -1,0 +1,21 @@
+
+> guidancepulse@1.0.0 s0:gate
+> vite-node scripts/s0-gate.ts
+
+[2026-11-15T15:57:59.260Z] S0 gate start (P025 GuidancePulse, SPEC_VERSION 1.1.0)
+[2026-11-15T15:57:59.461Z] env node=v24.22.1 npm=10.9.4 Python 3.12.3 platform=linux-x64 commit=d8eca78
+[2026-11-15T15:58:04.853Z] typecheck exit=0
+[2026-11-15T15:58:06.495Z] test:golden exit=0 passed=53 failed=0
+[2026-11-15T15:58:06.822Z] test:oracle exit=0
+[2026-11-15T15:58:59.593Z] npm test exit=0 passed=381 failed=0 files=20
+[2026-11-15T15:58:59.610Z] replay parity=48/48 control=16/16 detected=32/32
+[2026-11-15T15:58:59.721Z] oracle --verify-golden exit=0: oracle --verify-golden: PASS (48/48)
+[2026-11-15T15:59:03.219Z] oracle per-fixture vs production=48/48 vs golden=48/48
+[2026-11-15T15:59:24.420Z] perf p50=162.91ms p95=241.51ms p99=285.67ms min=144.83ms max=516.76ms cold_start=516.76ms cold_start_sample_index=0 failures=0 verdict=PASS
+[2026-11-15T15:59:24.873Z] repeat runs=100 unique_hashes=1 hash=ef06d30f45d2c8460bb22eb7e477c485960bee663a6f83d5859c06ceabe8af50 verdict=PASS
+[2026-11-15T15:59:24.885Z] network scan files=38 call_site_hits=0 url_literals=0
+[2026-11-15T15:59:24.892Z] privacy scan files=11 total_canary_hits=0
+[2026-11-15T15:59:24.894Z] supporting evidence: typecheck=PASS tests=PASS (full=381 passed/0 failed)
+[2026-11-15T15:59:24.895Z] S0 overall verdict: PASS
+[2026-11-15T15:59:24.897Z] wrote artifacts/s0/S0_GATE.json sha256=bcc7fd5bffe6198c453d791a46685b89019f35ca52e2bec19470f6ee9b76343a
+[2026-11-15T15:59:24.897Z] S0 gate done: PASS

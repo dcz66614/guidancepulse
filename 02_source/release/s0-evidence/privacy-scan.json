@@ -1,0 +1,122 @@
+{
+  "canaries": [
+    "CANARY-S0GATE-PROMPT-5c1e8a04-syn-101",
+    "CANARY-S0GATE-SOURCE-7d2b9f31-syn-102",
+    "CANARY-S0GATE-TOKEN-3a9e6c58-syn-103"
+  ],
+  "scope": "perf fixture dir (SQLite + WAL + config + key) and gate artifacts + gate log as of scan time; post-scan log appends are verdict/count lines only. Rounds 2 and 3 scan the S0_GATE.json/.md bytes (draft, then the exact final bytes) and are recorded, numeric-only, in S0_GATE.json privacy_second_pass and in logs/s0-gate.log — not in this file, so this file's hash stays final once written. privacy-scan.json itself is not byte-scanned in rounds 2/3 because its `canaries` field intentionally lists the searched strings",
+  "files": [
+    {
+      "path": "artifacts/s0/.perf-fixture/config.yaml",
+      "bytes": 723,
+      "sha256": "9ae5e962eb0e2b2eb7d441eadc97f72c50d2395e4b1d0d7e2767b13f2feef03d",
+      "hits": {
+        "CANARY-S0GATE-PROMPT-5c1e8a04-syn-101": 0,
+        "CANARY-S0GATE-SOURCE-7d2b9f31-syn-102": 0,
+        "CANARY-S0GATE-TOKEN-3a9e6c58-syn-103": 0
+      }
+    },
+    {
+      "path": "artifacts/s0/.perf-fixture/path-key.bin",
+      "bytes": 28,
+      "sha256": "ed7264cb96aeb744b908062124c183b266ffb8d774b4cf05364ed0d28e792188",
+      "hits": {
+        "CANARY-S0GATE-PROMPT-5c1e8a04-syn-101": 0,
+        "CANARY-S0GATE-SOURCE-7d2b9f31-syn-102": 0,
+        "CANARY-S0GATE-TOKEN-3a9e6c58-syn-103": 0
+      }
+    },
+    {
+      "path": "artifacts/s0/.perf-fixture/state.sqlite",
+      "bytes": 4096,
+      "sha256": "89a2318c76452be80e1d743f163f3dd96623b2b05604aa06985c6b5501238362",
+      "hits": {
+        "CANARY-S0GATE-PROMPT-5c1e8a04-syn-101": 0,
+        "CANARY-S0GATE-SOURCE-7d2b9f31-syn-102": 0,
+        "CANARY-S0GATE-TOKEN-3a9e6c58-syn-103": 0
+      }
+    },
+    {
+      "path": "artifacts/s0/.perf-fixture/state.sqlite-shm",
+      "bytes": 32768,
+      "sha256": "ecf2258c74b9b87d06e6b94bba9db989ff919996cc7de97f4b4691998b519363",
+      "hits": {
+        "CANARY-S0GATE-PROMPT-5c1e8a04-syn-101": 0,
+        "CANARY-S0GATE-SOURCE-7d2b9f31-syn-102": 0,
+        "CANARY-S0GATE-TOKEN-3a9e6c58-syn-103": 0
+      }
+    },
+    {
+      "path": "artifacts/s0/.perf-fixture/state.sqlite-wal",
+      "bytes": 1870512,
+      "sha256": "bec5f0b7399186e8eec43f5a1e6b67a295825a89f3ba16370c7516e3e32fae4f",
+      "hits": {
+        "CANARY-S0GATE-PROMPT-5c1e8a04-syn-101": 0,
+        "CANARY-S0GATE-SOURCE-7d2b9f31-syn-102": 0,
+        "CANARY-S0GATE-TOKEN-3a9e6c58-syn-103": 0
+      }
+    },
+    {
+      "path": "artifacts/s0/fixture-results.json",
+      "bytes": 187747,
+      "sha256": "79daa09bbf4a624e5921f66e367fc0c73fe1384344e7beff01648d0561a25f74",
+      "hits": {
+        "CANARY-S0GATE-PROMPT-5c1e8a04-syn-101": 0,
+        "CANARY-S0GATE-SOURCE-7d2b9f31-syn-102": 0,
+        "CANARY-S0GATE-TOKEN-3a9e6c58-syn-103": 0
+      }
+    },
+    {
+      "path": "artifacts/s0/logs/s0-gate.log",
+      "bytes": 1056,
+      "sha256": "4a912a17f51b233f937edec04d90725eace8d71620ea09025f28c4d6e0305849",
+      "hits": {
+        "CANARY-S0GATE-PROMPT-5c1e8a04-syn-101": 0,
+        "CANARY-S0GATE-SOURCE-7d2b9f31-syn-102": 0,
+        "CANARY-S0GATE-TOKEN-3a9e6c58-syn-103": 0
+      }
+    },
+    {
+      "path": "artifacts/s0/network-scan.json",
+      "bytes": 415,
+      "sha256": "d93b0840e7783fef0634717c9e868f0a2496fd852df112c1fa821d26a0937e06",
+      "hits": {
+        "CANARY-S0GATE-PROMPT-5c1e8a04-syn-101": 0,
+        "CANARY-S0GATE-SOURCE-7d2b9f31-syn-102": 0,
+        "CANARY-S0GATE-TOKEN-3a9e6c58-syn-103": 0
+      }
+    },
+    {
+      "path": "artifacts/s0/oracle-results.json",
+      "bytes": 48427,
+      "sha256": "712e024d5bf681d91522239a449c5678272e3a52e78965a9265500605957df5f",
+      "hits": {
+        "CANARY-S0GATE-PROMPT-5c1e8a04-syn-101": 0,
+        "CANARY-S0GATE-SOURCE-7d2b9f31-syn-102": 0,
+        "CANARY-S0GATE-TOKEN-3a9e6c58-syn-103": 0
+      }
+    },
+    {
+      "path": "artifacts/s0/perf-hook.json",
+      "bytes": 2866,
+      "sha256": "ebc11bb7a953b1fbc1a9e6181f1f7be0dc16341538980b431aa9ea63e0fd34a5",
+      "hits": {
+        "CANARY-S0GATE-PROMPT-5c1e8a04-syn-101": 0,
+        "CANARY-S0GATE-SOURCE-7d2b9f31-syn-102": 0,
+        "CANARY-S0GATE-TOKEN-3a9e6c58-syn-103": 0
+      }
+    },
+    {
+      "path": "artifacts/s0/repeat-hashes.json",
+      "bytes": 7476,
+      "sha256": "1fe3e5429e6ab72141bd2e4b150aecf791508d03d5b55447ef02cba5bba0ecc7",
+      "hits": {
+        "CANARY-S0GATE-PROMPT-5c1e8a04-syn-101": 0,
+        "CANARY-S0GATE-SOURCE-7d2b9f31-syn-102": 0,
+        "CANARY-S0GATE-TOKEN-3a9e6c58-syn-103": 0
+      }
+    }
+  ],
+  "total_hits": 0,
+  "verdict": "PASS"
+}

@@ -1,0 +1,15 @@
+
+> guidancepulse@1.0.0 test:offline
+> vitest run tests/integration/offline.test.ts
+
+
+ RUN  v3.2.4 /home/hatch/workspace/p025-guidancepulse/02_source
+
+ ✓ tests/integration/offline.test.ts (2 tests) 3829ms
+   ✓ T012 offline: no external requests > runtime: Read → FRESH → Write allow inside a network namespace with no interfaces  3811ms
+
+ Test Files  1 passed (1)
+      Tests  2 passed (2)
+   Start at  15:57:36
+   Duration  4.93s (transform 363ms, setup 0ms, collect 483ms, tests 3.83s, environment 0ms, prepare 188ms)
+

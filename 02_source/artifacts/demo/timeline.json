@@ -1,0 +1,181 @@
+{
+  "sessionScopeId": "demo-session-01",
+  "agentScopeId": "main",
+  "phaseId": "review",
+  "lastCompactUtc": "2026-11-15T10:31:55Z",
+  "guidances": [
+    {
+      "guidanceId": "api-rate-limits",
+      "state": "UNSEEN",
+      "remainingSuccessfulEdits": null,
+      "maxSuccessfulEdits": null,
+      "reason": null,
+      "lastConfirmedReadUtc": null,
+      "cwdPathIdShort": null
+    },
+    {
+      "guidanceId": "auth-change-safety",
+      "state": "EXPIRED",
+      "remainingSuccessfulEdits": 4,
+      "maxSuccessfulEdits": 5,
+      "reason": "PHASE_MISMATCH",
+      "lastConfirmedReadUtc": "2026-11-15T10:14:03Z",
+      "cwdPathIdShort": "hmac:f60c8b…"
+    },
+    {
+      "guidanceId": "release-checklist",
+      "state": "FRESH",
+      "remainingSuccessfulEdits": 4,
+      "maxSuccessfulEdits": 5,
+      "reason": null,
+      "lastConfirmedReadUtc": "2026-11-15T10:52:30Z",
+      "cwdPathIdShort": "hmac:087bff…"
+    }
+  ],
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "read",
+      "label": "Read",
+      "timestampUtc": "2026-11-15T10:14:03Z",
+      "guidanceId": "auth-change-safety",
+      "pathIdShort": "hmac:c40061…",
+      "decision": null,
+      "state": null,
+      "reason": null,
+      "detail": "Guidance auth-change-safety read confirmed · path hmac:c40061…"
+    },
+    {
+      "id": "e2",
+      "kind": "write",
+      "label": "Write decision",
+      "timestampUtc": "2026-11-15T10:15:20Z",
+      "guidanceId": "auth-change-safety",
+      "pathIdShort": "hmac:c40061…",
+      "decision": "ALLOW",
+      "state": "FRESH",
+      "reason": null,
+      "detail": "Write decision ALLOW · lease FRESH · guidance auth-change-safety · path hmac:c40061…"
+    },
+    {
+      "id": "e3",
+      "kind": "phase",
+      "label": "Phase",
+      "timestampUtc": "2026-11-15T10:20:02Z",
+      "guidanceId": null,
+      "pathIdShort": null,
+      "decision": null,
+      "state": null,
+      "reason": "PHASE_MISMATCH",
+      "detail": "Phase changed to review — leases issued under an earlier phase expired (PHASE_MISMATCH)"
+    },
+    {
+      "id": "e4",
+      "kind": "read",
+      "label": "Read",
+      "timestampUtc": "2026-11-15T10:21:37Z",
+      "guidanceId": "release-checklist",
+      "pathIdShort": "hmac:6cfdbd…",
+      "decision": null,
+      "state": null,
+      "reason": null,
+      "detail": "Guidance release-checklist read confirmed · path hmac:6cfdbd…"
+    },
+    {
+      "id": "e5",
+      "kind": "write",
+      "label": "Write decision",
+      "timestampUtc": "2026-11-15T10:24:10Z",
+      "guidanceId": "release-checklist",
+      "pathIdShort": "hmac:6cfdbd…",
+      "decision": "ALLOW",
+      "state": "FRESH",
+      "reason": null,
+      "detail": "Write decision ALLOW · lease FRESH · guidance release-checklist · path hmac:6cfdbd…"
+    },
+    {
+      "id": "e6",
+      "kind": "compact",
+      "label": "Compact",
+      "timestampUtc": "2026-11-15T10:31:55Z",
+      "guidanceId": null,
+      "pathIdShort": null,
+      "decision": null,
+      "state": null,
+      "reason": "CONTEXT_COMPACTION",
+      "detail": "Context compaction — leases in this scope expired (CONTEXT_COMPACTION)"
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "label": "Write decision",
+      "timestampUtc": "2026-11-15T10:33:02Z",
+      "guidanceId": "release-checklist",
+      "pathIdShort": "hmac:6cfdbd…",
+      "decision": "DENY",
+      "state": "EXPIRED",
+      "reason": null,
+      "detail": "Write decision DENY · lease EXPIRED · guidance release-checklist · path hmac:6cfdbd… · Re-read the guidance, then retry the write."
+    },
+    {
+      "id": "e8",
+      "kind": "cwd",
+      "label": "Cwd",
+      "timestampUtc": "2026-11-15T10:40:18Z",
+      "guidanceId": null,
+      "pathIdShort": "hmac:087bff…",
+      "decision": null,
+      "state": null,
+      "reason": "CWD_MISMATCH",
+      "detail": "Working directory changed · hmac:f60c8b… → hmac:087bff…"
+    },
+    {
+      "id": "e9",
+      "kind": "subagent",
+      "label": "Subagent",
+      "timestampUtc": "2026-11-15T10:45:44Z",
+      "guidanceId": null,
+      "pathIdShort": null,
+      "decision": null,
+      "state": null,
+      "reason": "SUBAGENT_SCOPE",
+      "detail": "Subagent scope subagent-01 started — parent leases are not inherited (SUBAGENT_SCOPE)"
+    },
+    {
+      "id": "e10",
+      "kind": "write",
+      "label": "Write decision",
+      "timestampUtc": "2026-11-15T10:47:09Z",
+      "guidanceId": "api-rate-limits",
+      "pathIdShort": "hmac:6151e7…",
+      "decision": "DENY",
+      "state": "UNSEEN",
+      "reason": null,
+      "detail": "Write decision DENY · lease UNSEEN · guidance api-rate-limits · path hmac:6151e7… · Re-read the guidance, then retry the write."
+    },
+    {
+      "id": "e11",
+      "kind": "read",
+      "label": "Read",
+      "timestampUtc": "2026-11-15T10:52:30Z",
+      "guidanceId": "release-checklist",
+      "pathIdShort": "hmac:6cfdbd…",
+      "decision": null,
+      "state": null,
+      "reason": null,
+      "detail": "Guidance release-checklist read confirmed · path hmac:6cfdbd…"
+    },
+    {
+      "id": "e12",
+      "kind": "write",
+      "label": "Write decision",
+      "timestampUtc": "2026-11-15T10:53:15Z",
+      "guidanceId": "release-checklist",
+      "pathIdShort": "hmac:6cfdbd…",
+      "decision": "ALLOW",
+      "state": "FRESH",
+      "reason": null,
+      "detail": "Write decision ALLOW · lease FRESH · guidance release-checklist · path hmac:6cfdbd…"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "base": "http://127.0.0.1:35983",
+  "requests": [
+    "http://127.0.0.1:35983/",
+    "http://127.0.0.1:35983/assets/index-CUspaKec.js",
+    "http://127.0.0.1:35983/assets/index-BOokuB8r.css",
+    "http://127.0.0.1:35983/report"
+  ]
+}
