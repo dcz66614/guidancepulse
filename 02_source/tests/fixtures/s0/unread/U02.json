@@ -1,0 +1,93 @@
+{
+  "id": "U02",
+  "group": "unread",
+  "description": "No read at all: docs write WARN, UNSEEN.",
+  "spec": "PROJECT_BOOK.md v1.0.0 §5",
+  "session": "sess-s0-u02",
+  "agent": "main",
+  "config": {
+    "phases": [
+      "explore",
+      "implementation",
+      "review",
+      "release"
+    ],
+    "rules": [
+      {
+        "id": "auth-change-safety",
+        "source": [
+          "CLAUDE.md"
+        ],
+        "applies_to": [
+          "src/auth/**"
+        ],
+        "phases": [
+          "implementation",
+          "review"
+        ],
+        "mode": "block",
+        "max_successful_edits": 5
+      },
+      {
+        "id": "docs-style",
+        "source": [
+          ".claude/rules/docs.md"
+        ],
+        "applies_to": [
+          "docs/**"
+        ],
+        "phases": [
+          "explore",
+          "implementation",
+          "review",
+          "release"
+        ],
+        "mode": "warn",
+        "max_successful_edits": 3
+      },
+      {
+        "id": "api-contract",
+        "source": [
+          "CLAUDE.md"
+        ],
+        "applies_to": [
+          "src/api/**"
+        ],
+        "phases": [
+          "implementation"
+        ],
+        "mode": "ask",
+        "max_successful_edits": 2
+      }
+    ]
+  },
+  "steps": [
+    {
+      "kind": "write",
+      "tool": "Write",
+      "target": "docs/guide.md",
+      "phase": "implementation",
+      "cwd": "/proj",
+      "outcome": "not_run",
+      "t": "2026-11-15T10:00:00Z"
+    }
+  ],
+  "expected": {
+    "decisions": [
+      {
+        "step": 0,
+        "decision": "WARN",
+        "per_rule": [
+          {
+            "guidance_id": "docs-style",
+            "mode": "warn",
+            "state": "UNSEEN",
+            "expired_reason": null
+          }
+        ]
+      }
+    ],
+    "leases": []
+  },
+  "test_path_key": "guidancepulse-s0-test-key-v1"
+}

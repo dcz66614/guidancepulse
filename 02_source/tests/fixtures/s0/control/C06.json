@@ -1,0 +1,162 @@
+{
+  "id": "C06",
+  "group": "control",
+  "description": "Re-read refreshes a partially spent lease: 5 -> 3 -> re-read 5 -> 4.",
+  "spec": "PROJECT_BOOK.md v1.0.0 §5",
+  "session": "sess-s0-c06",
+  "agent": "main",
+  "config": {
+    "phases": [
+      "explore",
+      "implementation",
+      "review",
+      "release"
+    ],
+    "rules": [
+      {
+        "id": "auth-change-safety",
+        "source": [
+          "CLAUDE.md"
+        ],
+        "applies_to": [
+          "src/auth/**"
+        ],
+        "phases": [
+          "implementation",
+          "review"
+        ],
+        "mode": "block",
+        "max_successful_edits": 5
+      },
+      {
+        "id": "docs-style",
+        "source": [
+          ".claude/rules/docs.md"
+        ],
+        "applies_to": [
+          "docs/**"
+        ],
+        "phases": [
+          "explore",
+          "implementation",
+          "review",
+          "release"
+        ],
+        "mode": "warn",
+        "max_successful_edits": 3
+      },
+      {
+        "id": "api-contract",
+        "source": [
+          "CLAUDE.md"
+        ],
+        "applies_to": [
+          "src/api/**"
+        ],
+        "phases": [
+          "implementation"
+        ],
+        "mode": "ask",
+        "max_successful_edits": 2
+      }
+    ]
+  },
+  "steps": [
+    {
+      "kind": "read",
+      "guidance_id": "auth-change-safety",
+      "phase": "implementation",
+      "cwd": "/proj",
+      "t": "2026-11-15T10:00:00Z"
+    },
+    {
+      "kind": "write",
+      "tool": "Write",
+      "target": "src/auth/login.ts",
+      "phase": "implementation",
+      "cwd": "/proj",
+      "outcome": "success",
+      "t": "2026-11-15T10:01:00Z"
+    },
+    {
+      "kind": "write",
+      "tool": "Write",
+      "target": "src/auth/login.ts",
+      "phase": "implementation",
+      "cwd": "/proj",
+      "outcome": "success",
+      "t": "2026-11-15T10:02:00Z"
+    },
+    {
+      "kind": "read",
+      "guidance_id": "auth-change-safety",
+      "phase": "implementation",
+      "cwd": "/proj",
+      "t": "2026-11-15T10:03:00Z"
+    },
+    {
+      "kind": "write",
+      "tool": "Write",
+      "target": "src/auth/login.ts",
+      "phase": "implementation",
+      "cwd": "/proj",
+      "outcome": "success",
+      "t": "2026-11-15T10:04:00Z"
+    }
+  ],
+  "expected": {
+    "decisions": [
+      {
+        "step": 1,
+        "decision": "ALLOW",
+        "per_rule": [
+          {
+            "guidance_id": "auth-change-safety",
+            "mode": "block",
+            "state": "FRESH",
+            "expired_reason": null
+          }
+        ]
+      },
+      {
+        "step": 2,
+        "decision": "ALLOW",
+        "per_rule": [
+          {
+            "guidance_id": "auth-change-safety",
+            "mode": "block",
+            "state": "FRESH",
+            "expired_reason": null
+          }
+        ]
+      },
+      {
+        "step": 4,
+        "decision": "ALLOW",
+        "per_rule": [
+          {
+            "guidance_id": "auth-change-safety",
+            "mode": "block",
+            "state": "FRESH",
+            "expired_reason": null
+          }
+        ]
+      }
+    ],
+    "leases": [
+      {
+        "session": "sess-s0-c06",
+        "agent": "main",
+        "guidance_id": "auth-change-safety",
+        "state": "FRESH",
+        "phase": "implementation",
+        "cwd": "/proj",
+        "remaining": 4,
+        "max": 5,
+        "reason": null,
+        "last_read": "2026-11-15T10:03:00Z"
+      }
+    ]
+  },
+  "test_path_key": "guidancepulse-s0-test-key-v1"
+}
