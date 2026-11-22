@@ -1,0 +1,18 @@
+#!/bin/sh
+# `guidancepulse` launcher — P025 GuidancePulse, T011 (FIX-T011).
+# Runs the TypeScript CLI via vite-node (the same runner the S0 gate
+# scripts use). Resolves the 02_source tree from this script's location,
+# so it works from any working directory.
+#
+# FIX-T011: this launcher MUST NOT change the caller's working
+# directory. An earlier version did `cd "$SOURCE_DIR"` before exec,
+# so `process.cwd()` inside the CLI was always 02_source and
+# `--project .` (and the no-flag default) resolved to 02_source
+# instead of the user's project. vite-node is therefore invoked by
+# absolute path, with the entry point also given as an absolute
+# path; vite-node resolves TS imports relative to the entry file,
+# so running it from an arbitrary cwd is safe.
+set -eu
+SCRIPT_DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+SOURCE_DIR=$(dirname "$SCRIPT_DIR")
+exec "$SOURCE_DIR/node_modules/.bin/vite-node" "$SOURCE_DIR/src/cli/main.ts" "$@"
